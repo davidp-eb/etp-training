@@ -1,0 +1,2956 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render the main App test 1`] = `
+<App>
+  <EventList
+    data={
+      Object {
+        "events": Array [
+          Object {
+            "_type": "destination_event",
+            "checkout_flow": "moflo",
+            "eid": "echkdzf",
+            "end_date": "2018-12-16",
+            "end_time": "22:00",
+            "eventbrite_event_id": "48246888743",
+            "id": "48246888743",
+            "image": Object {
+              "aspect_ratio": "2",
+              "crop_mask": Object {
+                "height": 1080,
+                "top_left": Object {
+                  "x": 0,
+                  "y": 0,
+                },
+                "width": 2160,
+              },
+              "edge_color": "#1b2977",
+              "edge_color_set": true,
+              "id": "47796618",
+              "original": Object {
+                "height": 1080,
+                "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F47796618%2F238672898614%2F1%2Foriginal.jpg?auto=compress&s=e923b56b038f5c2a53319ad19bb6215f",
+                "width": 2160,
+              },
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F47796618%2F238672898614%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C2160%2C1080&s=217cb46eb42120eb2191402569a39491",
+            },
+            "image_id": "47796618",
+            "is_cancelled": null,
+            "my_collections": Object {},
+            "name": "CARNATAL 2018",
+            "primary_organizer": Object {
+              "_type": "destination_profile",
+              "facebook": null,
+              "followed_by_you": false,
+              "id": "17310804297",
+              "image_id": null,
+              "name": "Carnatal",
+              "num_collections": null,
+              "num_followers": null,
+              "num_following": null,
+              "num_saves": null,
+              "num_upcoming_events": null,
+              "profile_type": "organizer",
+              "summary": null,
+              "twitter": null,
+              "url": "https://www.evbqa.com.br/o/carnatal-17310804297",
+              "website_url": null,
+            },
+            "primary_organizer_id": "17310804297",
+            "primary_venue_id": "25955115",
+            "primary_venue_with_places": Object {
+              "address": Object {
+                "address_1": null,
+                "address_2": null,
+                "city": "Natal",
+                "country": "BR",
+                "latitude": "-5.7792569",
+                "localized_address_display": "Natal, Rio Grande do Norte",
+                "localized_area_display": "Natal, Rio Grande do Norte",
+                "localized_multi_line_address_display": Array [
+                  "Natal, Rio Grande do Norte",
+                ],
+                "longitude": "-35.20091600000001",
+                "postal_code": null,
+                "region": "Rio Grande do Norte",
+              },
+              "facebook": null,
+              "google_place_id": null,
+              "id": "25955115",
+              "instagram_id": null,
+              "name": null,
+              "places": Object {
+                "continent": Object {
+                  "id": "102191577",
+                  "latitude": -12.819233,
+                  "location_slug": "south-america",
+                  "longitude": -50.657067,
+                  "name": "South America",
+                  "parent_id": "None",
+                  "place_type": "continent",
+                },
+                "country": Object {
+                  "id": "85633009",
+                  "latitude": -11.928923,
+                  "location_slug": "brazil",
+                  "longitude": -49.542449,
+                  "name": "Brazil",
+                  "parent_id": "102191577",
+                  "place_type": "country",
+                },
+                "county": Object {
+                  "id": "102058709",
+                  "latitude": -5.827401,
+                  "location_slug": "",
+                  "longitude": -35.22207,
+                  "name": "Natal",
+                  "parent_id": "85681999",
+                  "place_type": "county",
+                },
+                "locality": Object {
+                  "id": "101946845",
+                  "latitude": -5.803737,
+                  "location_slug": "brazil--natal",
+                  "longitude": -35.218408,
+                  "name": "Natal",
+                  "parent_id": "102058709",
+                  "place_type": "locality",
+                },
+                "neighbourhood": Object {
+                  "id": "85765305",
+                  "latitude": -5.792447,
+                  "location_slug": "",
+                  "longitude": -35.205197,
+                  "name": "Petrópolis",
+                  "parent_id": "101946845",
+                  "place_type": "neighbourhood",
+                },
+                "region": Object {
+                  "id": "85681999",
+                  "latitude": -5.763863,
+                  "location_slug": "rio-grande-do-norte",
+                  "longitude": -36.646727,
+                  "name": "Rio Grande Do Norte",
+                  "parent_id": "85633009",
+                  "place_type": "region",
+                },
+              },
+              "ref": null,
+              "telephone": null,
+              "twitter": null,
+              "venue_profile_id": null,
+              "venue_profile_url": null,
+              "website": null,
+            },
+            "saves": Object {
+              "saved_by_you": false,
+            },
+            "series_id": null,
+            "start_date": "2018-12-13",
+            "start_time": "19:00",
+            "summary": "BLOCO VUMBORA! (Dias: 13 a 15 de dezembro – quinta, sexta e sábado)O bloco Vumbora, comandado por Bell Marques, arrasta multidões na quinta, sexta esábado do Carnatal.Bell traz para a avenida sucessos que marcaram uma geração do axé, hinos que sãoentoados pelo seu público fiel que segue o cantor pelas micaretas de todo o Brasil. Obloco que esgotou todos os dias em 2017, promete ser um sucesso de vendas em2018 também. Não vale chorar e nem se arrepender, garanta logo o seu abadá e digaque VALEU D",
+            "tags": Array [
+              Object {
+                "display_name": "Music",
+                "localized": Object {
+                  "display_name": "Music",
+                },
+                "prefix": "EventbriteCategory",
+                "tag": "EventbriteCategory/103",
+              },
+              Object {
+                "display_name": "Party or Social Gathering",
+                "prefix": "EventbriteFormat",
+                "tag": "EventbriteFormat/11",
+              },
+            ],
+            "ticket_availability": Object {
+              "has_available_tickets": true,
+              "is_free": false,
+              "is_sold_out": false,
+              "maximum_ticket_price": Object {
+                "currency": "BRL",
+                "display": "720.00 BRL",
+                "major_value": "720.00",
+                "value": 72000,
+              },
+              "minimum_ticket_price": Object {
+                "currency": "BRL",
+                "display": "130.00 BRL",
+                "major_value": "130.00",
+                "value": 13000,
+              },
+            },
+            "tickets_by": "Eventbrite",
+            "tickets_url": "https://www.evbqa.com.br/e/carnatal-2018-tickets-48246888743",
+            "timezone": "America/Fortaleza",
+            "url": "https://www.evbqa.com.br/e/carnatal-2018-tickets-48246888743",
+          },
+          Object {
+            "_type": "destination_event",
+            "checkout_flow": "moflo",
+            "eid": "ezfbym",
+            "end_date": "2018-08-29",
+            "end_time": "23:00",
+            "eventbrite_event_id": "47981225136",
+            "id": "47981225136",
+            "image": Object {
+              "aspect_ratio": "2",
+              "crop_mask": Object {
+                "height": 400,
+                "top_left": Object {
+                  "x": 0,
+                  "y": 0,
+                },
+                "width": 800,
+              },
+              "edge_color": "#69418d",
+              "edge_color_set": true,
+              "id": "47080018",
+              "original": Object {
+                "height": 400,
+                "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F47080018%2F221024390825%2F1%2Foriginal.jpg?auto=compress&s=a04446c2b0a4fe14ed442c65bc4569e1",
+                "width": 800,
+              },
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F47080018%2F221024390825%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C800%2C400&s=23792be9c0f9d118279c24a12955feda",
+            },
+            "image_id": "47080018",
+            "is_cancelled": null,
+            "my_collections": Object {},
+            "name": "FREE TICKETS! CLEVELAND IMPROV 8/29 Stand Up Comedy Show ",
+            "primary_organizer": Object {
+              "_type": "destination_profile",
+              "facebook": "freshdrunkstonedtour",
+              "followed_by_you": false,
+              "id": "15286609429",
+              "image_id": null,
+              "name": "FRESH DRUNK STONED COMEDY TOUR",
+              "num_collections": null,
+              "num_followers": null,
+              "num_following": null,
+              "num_saves": null,
+              "num_upcoming_events": null,
+              "profile_type": "organizer",
+              "summary": null,
+              "twitter": "TimfromDa70s",
+              "url": "https://www.evbqa.com/o/fresh-drunk-stoned-comedy-tour-15286609429",
+              "website_url": null,
+            },
+            "primary_organizer_id": "15286609429",
+            "primary_venue_id": "25810132",
+            "primary_venue_with_places": Object {
+              "address": Object {
+                "address_1": "1148 Main Avenue",
+                "address_2": null,
+                "city": "Cleveland",
+                "country": "US",
+                "latitude": "41.49824599999999",
+                "localized_address_display": "1148 Main Avenue, Cleveland, OH 44113",
+                "localized_area_display": "Cleveland, OH",
+                "localized_multi_line_address_display": Array [
+                  "1148 Main Avenue",
+                  "Cleveland, OH 44113",
+                ],
+                "longitude": "-81.7069869",
+                "postal_code": "44113",
+                "region": "OH",
+              },
+              "facebook": null,
+              "google_place_id": null,
+              "id": "25810132",
+              "instagram_id": null,
+              "name": "Improv Comedy Theater & Restaurant",
+              "places": Object {
+                "continent": Object {
+                  "id": "102191575",
+                  "latitude": 38.309137,
+                  "location_slug": "north-america",
+                  "longitude": -101.328273,
+                  "name": "North America",
+                  "parent_id": "None",
+                  "place_type": "continent",
+                },
+                "country": Object {
+                  "id": "85633793",
+                  "latitude": 39.715956,
+                  "location_slug": "united-states",
+                  "longitude": -96.999668,
+                  "name": "United States",
+                  "parent_id": "102191575",
+                  "place_type": "country",
+                },
+                "county": Object {
+                  "id": "102084837",
+                  "latitude": 41.633689,
+                  "location_slug": "",
+                  "longitude": -81.729852,
+                  "name": "Cuyahoga",
+                  "parent_id": "85688485",
+                  "place_type": "county",
+                },
+                "localadmin": Object {
+                  "id": "404523697",
+                  "latitude": 41.493269,
+                  "location_slug": "",
+                  "longitude": -81.651543,
+                  "name": "Cleveland",
+                  "parent_id": "102084837",
+                  "place_type": "localadmin",
+                },
+                "locality": Object {
+                  "id": "101712563",
+                  "latitude": 41.496551,
+                  "location_slug": "oh--cleveland",
+                  "longitude": -81.65133,
+                  "name": "Cleveland",
+                  "parent_id": "404523697",
+                  "place_type": "locality",
+                },
+                "neighbourhood": Object {
+                  "id": "420534715",
+                  "latitude": 41.496421,
+                  "location_slug": "",
+                  "longitude": -81.708024,
+                  "name": "West Bank",
+                  "parent_id": "101712563",
+                  "place_type": "neighbourhood",
+                },
+                "region": Object {
+                  "id": "85688485",
+                  "latitude": 40.262259,
+                  "location_slug": "ohio",
+                  "longitude": -82.883453,
+                  "name": "Ohio",
+                  "parent_id": "85633793",
+                  "place_type": "region",
+                },
+              },
+              "ref": null,
+              "telephone": null,
+              "twitter": null,
+              "venue_profile_id": null,
+              "venue_profile_url": null,
+              "website": null,
+            },
+            "saves": Object {
+              "saved_by_you": false,
+            },
+            "series_id": null,
+            "start_date": "2018-08-29",
+            "start_time": "19:00",
+            "summary": "7 pm show is sold out! We have added a 9:30 show!
+FREE TICKETS!
+THE FRESH DRUNK STONED COMEDY SHOW is coming to the Cleveland Improv!!!!
+4 Comics from LA and Chicago bringing you a showcase of stand up comedy you have never seen before.
+In the spirit of The Comedy Store in Los Angeles, we bring you this showcase style event. You get to see four different comedians from different backgrounds and lifestyles. There is something for everyone here. Come on out and enjoy this unique show.
+FREE TICKETS",
+            "tags": Array [
+              Object {
+                "display_name": "Performing & Visual Arts",
+                "localized": Object {
+                  "display_name": "Performing & Visual Arts",
+                },
+                "prefix": "EventbriteCategory",
+                "tag": "EventbriteCategory/105",
+              },
+              Object {
+                "display_name": "Concert or Performance",
+                "prefix": "EventbriteFormat",
+                "tag": "EventbriteFormat/6",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "Comedy",
+                "prefix": "Auto",
+                "tag": "Auto/Comedy",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "Showcase",
+                "prefix": "Auto",
+                "tag": "Auto/Showcase",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "Improv",
+                "prefix": "Auto",
+                "tag": "Auto/Improv",
+              },
+            ],
+            "ticket_availability": Object {
+              "has_available_tickets": false,
+              "is_free": true,
+              "is_sold_out": true,
+              "maximum_ticket_price": Object {
+                "currency": "USD",
+                "display": "0.00 USD",
+                "major_value": "0.00",
+                "value": 0,
+              },
+              "minimum_ticket_price": Object {
+                "currency": "USD",
+                "display": "0.00 USD",
+                "major_value": "0.00",
+                "value": 0,
+              },
+            },
+            "tickets_by": "Eventbrite",
+            "tickets_url": "https://www.evbqa.com/e/free-tickets-cleveland-improv-829-stand-up-comedy-show-tickets-47981225136",
+            "timezone": "America/New_York",
+            "url": "https://www.evbqa.com/e/free-tickets-cleveland-improv-829-stand-up-comedy-show-tickets-47981225136",
+          },
+          Object {
+            "_type": "destination_event",
+            "checkout_flow": "moflo",
+            "eid": "eryhwx",
+            "end_date": "2018-09-23",
+            "end_time": "23:30",
+            "eventbrite_event_id": "44610109037",
+            "id": "44610109037",
+            "image": Object {
+              "aspect_ratio": "2",
+              "crop_mask": Object {
+                "height": 1080,
+                "top_left": Object {
+                  "x": 0,
+                  "y": 0,
+                },
+                "width": 2160,
+              },
+              "edge_color": "#815202",
+              "edge_color_set": true,
+              "id": "43675044",
+              "original": Object {
+                "height": 1080,
+                "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F43675044%2F250264865323%2F1%2Foriginal.jpg?auto=compress&s=e82ca8c94985b717a703c7b081ef90a2",
+                "width": 2160,
+              },
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F43675044%2F250264865323%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C2160%2C1080&s=f76595ab68e8b1a59a48cf8a3792926a",
+            },
+            "image_id": "43675044",
+            "is_cancelled": null,
+            "my_collections": Object {
+              "collections": Array [
+                Object {
+                  "can_admin": false,
+                  "can_curate": true,
+                  "can_edit": false,
+                  "event_count": 6327,
+                  "id": "cc",
+                  "image_id": null,
+                  "is_quality": true,
+                  "name": "Rally curated events",
+                  "summary": "Events picked by our Rally curators.",
+                },
+              ],
+              "more": false,
+            },
+            "name": "Life is Beautiful Music & Art Festival 2018",
+            "primary_organizer": Object {
+              "_type": "destination_profile",
+              "facebook": "LifeIsBeautifulFest/",
+              "followed_by_you": false,
+              "id": "17124195113",
+              "image_id": "43623584",
+              "name": "Life is Beautiful Music & Art Festival",
+              "num_collections": null,
+              "num_followers": null,
+              "num_following": null,
+              "num_saves": null,
+              "num_upcoming_events": null,
+              "profile_type": "organizer",
+              "summary": "IN THE SPIRIT OF THE NEW LAS VEGAS
+Over the past six years, Downtown Las Vegas has undergone a major transformation thanks to the revitalization of East Fremont as a cultural hub. During this movemen...",
+              "twitter": "@lifeisbeautiful",
+              "url": "https://www.evbqa.com/o/life-is-beautiful-music-amp-art-festival-17124195113",
+              "website_url": null,
+            },
+            "primary_organizer_id": "17124195113",
+            "primary_venue_id": "23994416",
+            "primary_venue_with_places": Object {
+              "address": Object {
+                "address_1": null,
+                "address_2": null,
+                "city": "Las Vegas",
+                "country": "US",
+                "latitude": "36.1699412",
+                "localized_address_display": "Las Vegas, NV",
+                "localized_area_display": "Las Vegas, NV",
+                "localized_multi_line_address_display": Array [
+                  "Las Vegas, NV",
+                ],
+                "longitude": "-115.13982959999998",
+                "postal_code": null,
+                "region": "NV",
+              },
+              "facebook": null,
+              "google_place_id": null,
+              "id": "23994416",
+              "instagram_id": null,
+              "name": "Downtown Las Vegas",
+              "places": Object {
+                "continent": Object {
+                  "id": "102191575",
+                  "latitude": 38.309137,
+                  "location_slug": "north-america",
+                  "longitude": -101.328273,
+                  "name": "North America",
+                  "parent_id": "None",
+                  "place_type": "continent",
+                },
+                "country": Object {
+                  "id": "85633793",
+                  "latitude": 39.715956,
+                  "location_slug": "united-states",
+                  "longitude": -96.999668,
+                  "name": "United States",
+                  "parent_id": "102191575",
+                  "place_type": "country",
+                },
+                "county": Object {
+                  "id": "102081553",
+                  "latitude": 36.290071,
+                  "location_slug": "",
+                  "longitude": -115.273973,
+                  "name": "Clark",
+                  "parent_id": "85688531",
+                  "place_type": "county",
+                },
+                "locality": Object {
+                  "id": "85974801",
+                  "latitude": 36.190364,
+                  "location_slug": "nv--las-vegas",
+                  "longitude": -115.279104,
+                  "name": "Las Vegas",
+                  "parent_id": "102081553",
+                  "place_type": "locality",
+                },
+                "neighbourhood": Object {
+                  "id": "85896899",
+                  "latitude": 36.168111,
+                  "location_slug": "",
+                  "longitude": -115.140381,
+                  "name": "Las Vegas Boulevard Overlay District",
+                  "parent_id": "85974801",
+                  "place_type": "neighbourhood",
+                },
+                "region": Object {
+                  "id": "85688531",
+                  "latitude": 39.440688,
+                  "location_slug": "nevada",
+                  "longitude": -116.598569,
+                  "name": "Nevada",
+                  "parent_id": "85633793",
+                  "place_type": "region",
+                },
+              },
+              "ref": null,
+              "telephone": null,
+              "twitter": null,
+              "venue_profile_id": null,
+              "venue_profile_url": null,
+              "website": null,
+            },
+            "saves": Object {
+              "saved_by_you": false,
+            },
+            "series_id": null,
+            "start_date": "2018-09-21",
+            "start_time": "14:00",
+            "summary": "Check out our other Ticket Types:
+Summer Payment Plan
+Golden Nugget Hotel Packages
+SLS Hotel Packages
+Downtown Grand Hotel Packages
+Plaza Hotel Packages
+
+From the moment the gates open until the last stream of confetti rains down, Life is Beautiful is a three-day celebration, uniting people who love music, art, food and ideas. When you put that many like-minded individuals together in the streets of Downtown Las Vegas, a surge of electricity courses through the city: Positivity prevails, culture",
+            "tags": Array [
+              Object {
+                "display_name": "Music",
+                "localized": Object {
+                  "display_name": "Music",
+                },
+                "prefix": "EventbriteCategory",
+                "tag": "EventbriteCategory/103",
+              },
+              Object {
+                "display_name": "Festival or Fair",
+                "prefix": "EventbriteFormat",
+                "tag": "EventbriteFormat/5",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "Festival",
+                "prefix": "Auto",
+                "tag": "Auto/Festival",
+              },
+            ],
+            "ticket_availability": Object {
+              "has_available_tickets": true,
+              "is_free": false,
+              "is_sold_out": false,
+              "maximum_ticket_price": Object {
+                "currency": "USD",
+                "display": "2495.00 USD",
+                "major_value": "2495.00",
+                "value": 249500,
+              },
+              "minimum_ticket_price": Object {
+                "currency": "USD",
+                "display": "45.00 USD",
+                "major_value": "45.00",
+                "value": 4500,
+              },
+            },
+            "tickets_by": "Eventbrite",
+            "tickets_url": "https://www.evbqa.com/e/life-is-beautiful-music-art-festival-2018-tickets-44610109037",
+            "timezone": "America/Los_Angeles",
+            "url": "https://www.evbqa.com/e/life-is-beautiful-music-art-festival-2018-tickets-44610109037",
+          },
+          Object {
+            "_type": "destination_event",
+            "checkout_flow": "moflo",
+            "eid": "ewmdkm",
+            "end_date": "2019-07-07",
+            "end_time": "15:00",
+            "eventbrite_event_id": "46087765748",
+            "id": "46087765748",
+            "image": Object {
+              "aspect_ratio": "2",
+              "crop_mask": Object {
+                "height": 1080,
+                "top_left": Object {
+                  "x": 0,
+                  "y": 0,
+                },
+                "width": 2160,
+              },
+              "edge_color": "#ffffff",
+              "edge_color_set": true,
+              "id": "44860208",
+              "original": Object {
+                "height": 1080,
+                "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F44860208%2F137800823461%2F1%2Foriginal.jpg?auto=compress&s=1ca176645d5a8cb5f89df3162a6533b7",
+                "width": 2160,
+              },
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F44860208%2F137800823461%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C2160%2C1080&s=a4ead673b460ab80601cadf3069efad1",
+            },
+            "image_id": "44860208",
+            "is_cancelled": null,
+            "my_collections": Object {},
+            "name": "Anime Expo 2019 Registration",
+            "primary_organizer": Object {
+              "_type": "destination_profile",
+              "facebook": "animeexpo",
+              "followed_by_you": false,
+              "id": "7832240572",
+              "image_id": "12008263",
+              "name": "Society for the Promotion of Japanese Animation (SPJA)",
+              "num_collections": null,
+              "num_followers": null,
+              "num_following": null,
+              "num_saves": null,
+              "num_upcoming_events": null,
+              "profile_type": "organizer",
+              "summary": "Founded in 1992, the Society for the Promotion of Japanese Animation (SPJA) is a non-profit organization dedicated to popularizing the unique and deep culture that surrounds of Japanese animation.
+Th...",
+              "twitter": "animeexpo",
+              "url": "https://www.evbqa.com/o/society-for-the-promotion-of-japanese-animation-spja-7832240572",
+              "website_url": null,
+            },
+            "primary_organizer_id": "7832240572",
+            "primary_venue_id": "9440454",
+            "primary_venue_with_places": Object {
+              "address": Object {
+                "address_1": "1201 South Figueroa Street ",
+                "address_2": null,
+                "city": "Los Angeles",
+                "country": "US",
+                "latitude": "34.0401988",
+                "localized_address_display": "1201 South Figueroa Street , Los Angeles, CA 90015",
+                "localized_area_display": "Los Angeles, CA",
+                "localized_multi_line_address_display": Array [
+                  "1201 South Figueroa Street",
+                  "Los Angeles, CA 90015",
+                ],
+                "longitude": "-118.2695539",
+                "postal_code": "90015",
+                "region": "CA",
+              },
+              "facebook": null,
+              "google_place_id": null,
+              "id": "9440454",
+              "instagram_id": null,
+              "name": "Los Angeles Convention Center",
+              "places": Object {
+                "continent": Object {
+                  "id": "102191575",
+                  "latitude": 38.309137,
+                  "location_slug": "north-america",
+                  "longitude": -101.328273,
+                  "name": "North America",
+                  "parent_id": "None",
+                  "place_type": "continent",
+                },
+                "country": Object {
+                  "id": "85633793",
+                  "latitude": 39.715956,
+                  "location_slug": "united-states",
+                  "longitude": -96.999668,
+                  "name": "United States",
+                  "parent_id": "102191575",
+                  "place_type": "country",
+                },
+                "county": Object {
+                  "id": "102086957",
+                  "latitude": 34.344417,
+                  "location_slug": "",
+                  "longitude": -118.189475,
+                  "name": "Los Angeles",
+                  "parent_id": "85688637",
+                  "place_type": "county",
+                },
+                "locality": Object {
+                  "id": "85923517",
+                  "latitude": 34.05513,
+                  "location_slug": "ca--los-angeles",
+                  "longitude": -118.25703,
+                  "name": "Los Angeles",
+                  "parent_id": "102086957",
+                  "place_type": "locality",
+                },
+                "macrohood": Object {
+                  "id": "1108694663",
+                  "latitude": 34.097921,
+                  "location_slug": "",
+                  "longitude": -118.304033,
+                  "name": "Central Los Angeles",
+                  "parent_id": "85923517",
+                  "place_type": "macrohood",
+                },
+                "neighbourhood": Object {
+                  "id": "85865811",
+                  "latitude": 34.043974,
+                  "location_slug": "",
+                  "longitude": -118.25787,
+                  "name": "Downtown",
+                  "parent_id": "1108694663",
+                  "place_type": "neighbourhood",
+                },
+                "region": Object {
+                  "id": "85688637",
+                  "latitude": 36.531544,
+                  "location_slug": "california",
+                  "longitude": -119.586168,
+                  "name": "California",
+                  "parent_id": "85633793",
+                  "place_type": "region",
+                },
+              },
+              "ref": null,
+              "telephone": null,
+              "twitter": null,
+              "venue_profile_id": 1204,
+              "venue_profile_url": "https://www.evbqa.com/v/los-angeles-convention-center-1204",
+              "website": null,
+            },
+            "saves": Object {
+              "saved_by_you": false,
+            },
+            "series_id": null,
+            "start_date": "2019-07-04",
+            "start_time": "18:00",
+            "summary": "Welcome to the Anime Expo 2019 Registration!
+Anime Expo, also known as \\"AX\\", is the largest Japanese popular culture event in North America, and will be held at the Los Angeles convention center July 4 - 7, 2019. For the latest information about the Anime Expo, please visit our website at: Anime-Expo.org
+ 
+Badge Mailing Starts June 2019! 
+Buy your badges early so you can take advantage of badge mailing!  For the convenience of our attendees, Anime Expo will ship badges to orders within the U",
+            "tags": Array [
+              Object {
+                "display_name": "Anime",
+                "prefix": "EventbriteSubCategory",
+                "tag": "EventbriteSubCategory/4003",
+              },
+              Object {
+                "display_name": "Film, Media & Entertainment",
+                "localized": Object {
+                  "display_name": "Film, Media & Entertainment",
+                },
+                "prefix": "EventbriteCategory",
+                "tag": "EventbriteCategory/104",
+              },
+              Object {
+                "display_name": "Tradeshow, Consumer Show, or Expo",
+                "prefix": "EventbriteFormat",
+                "tag": "EventbriteFormat/3",
+              },
+            ],
+            "ticket_availability": Object {
+              "has_available_tickets": true,
+              "is_free": false,
+              "is_sold_out": false,
+              "maximum_ticket_price": Object {
+                "currency": "USD",
+                "display": "80.00 USD",
+                "major_value": "80.00",
+                "value": 8000,
+              },
+              "minimum_ticket_price": Object {
+                "currency": "USD",
+                "display": "35.00 USD",
+                "major_value": "35.00",
+                "value": 3500,
+              },
+            },
+            "tickets_by": "Eventbrite",
+            "tickets_url": "https://www.evbqa.com/e/anime-expo-2019-registration-registration-46087765748",
+            "timezone": "America/Los_Angeles",
+            "url": "https://www.evbqa.com/e/anime-expo-2019-registration-registration-46087765748",
+          },
+          Object {
+            "_type": "destination_event",
+            "checkout_flow": "moflo",
+            "eid": "exmkrt",
+            "end_date": "2018-09-07",
+            "end_time": "12:00",
+            "eventbrite_event_id": "46415158990",
+            "id": "46415158990",
+            "image": Object {
+              "aspect_ratio": "2",
+              "crop_mask": Object {
+                "height": 1080,
+                "top_left": Object {
+                  "x": 0,
+                  "y": 0,
+                },
+                "width": 2160,
+              },
+              "edge_color": "#fbe2aa",
+              "edge_color_set": true,
+              "id": "46848804",
+              "original": Object {
+                "height": 1080,
+                "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46848804%2F206948369607%2F1%2Foriginal.jpg?auto=compress&s=3fdc596f5f2b171218335a905ffe15fb",
+                "width": 2160,
+              },
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46848804%2F206948369607%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C2160%2C1080&s=493f303a3c05f6ca9513b7b305fa7ea6",
+            },
+            "image_id": "46848804",
+            "is_cancelled": null,
+            "my_collections": Object {},
+            "name": "Só Track Boa Festival :: São Paulo :: 2018 ::",
+            "primary_organizer": Object {
+              "_type": "destination_profile",
+              "facebook": "events/174365543183417",
+              "followed_by_you": false,
+              "id": "15986301225",
+              "image_id": null,
+              "name": " Entourage | Conteudo Artistico",
+              "num_collections": null,
+              "num_followers": null,
+              "num_following": null,
+              "num_saves": null,
+              "num_upcoming_events": null,
+              "profile_type": "organizer",
+              "summary": "A Entourage | Conteúdo Artístico é uma agência de representação e gerenciamento de artistas e produção de eventos.Somos especializados em música eletrônica e em conectar artista e público. Nosso traba...",
+              "twitter": null,
+              "url": "https://www.evbqa.com.br/o/entourage-conteudo-artistico-15986301225",
+              "website_url": null,
+            },
+            "primary_organizer_id": "15986301225",
+            "primary_venue_id": "24967701",
+            "primary_venue_with_places": Object {
+              "address": Object {
+                "address_1": null,
+                "address_2": null,
+                "city": "São Paulo",
+                "country": "BR",
+                "latitude": "-23.5505199",
+                "localized_address_display": "São Paulo, São Paulo",
+                "localized_area_display": "São Paulo, São Paulo",
+                "localized_multi_line_address_display": Array [
+                  "São Paulo, São Paulo",
+                ],
+                "longitude": "-46.63330939999997",
+                "postal_code": null,
+                "region": "São Paulo",
+              },
+              "facebook": null,
+              "google_place_id": null,
+              "id": "24967701",
+              "instagram_id": null,
+              "name": "Estádio Canindé",
+              "places": Object {
+                "continent": Object {
+                  "id": "102191577",
+                  "latitude": -12.819233,
+                  "location_slug": "south-america",
+                  "longitude": -50.657067,
+                  "name": "South America",
+                  "parent_id": "None",
+                  "place_type": "continent",
+                },
+                "country": Object {
+                  "id": "85633009",
+                  "latitude": -11.928923,
+                  "location_slug": "brazil",
+                  "longitude": -49.542449,
+                  "name": "Brazil",
+                  "parent_id": "102191577",
+                  "place_type": "country",
+                },
+                "county": Object {
+                  "id": "102062255",
+                  "latitude": -23.57053,
+                  "location_slug": "",
+                  "longitude": -46.663718,
+                  "name": "SÃO PAULO",
+                  "parent_id": "85682041",
+                  "place_type": "county",
+                },
+                "localadmin": Object {
+                  "id": "404567359",
+                  "latitude": -23.566634,
+                  "location_slug": "",
+                  "longitude": -46.665608,
+                  "name": "Jardim Paulista",
+                  "parent_id": "102062255",
+                  "place_type": "localadmin",
+                },
+                "locality": Object {
+                  "id": "101965533",
+                  "latitude": -23.570533,
+                  "location_slug": "brazil--são-paulo",
+                  "longitude": -46.663713,
+                  "name": "São Paulo",
+                  "parent_id": "404567359",
+                  "place_type": "locality",
+                },
+                "neighbourhood": Object {
+                  "id": "85765955",
+                  "latitude": -23.547955,
+                  "location_slug": "",
+                  "longitude": -46.63494,
+                  "name": "Se",
+                  "parent_id": "101965533",
+                  "place_type": "neighbourhood",
+                },
+                "region": Object {
+                  "id": "85682041",
+                  "latitude": -22.154376,
+                  "location_slug": "são-paulo",
+                  "longitude": -48.428808,
+                  "name": "SÃO PAULO",
+                  "parent_id": "85633009",
+                  "place_type": "region",
+                },
+              },
+              "ref": null,
+              "telephone": null,
+              "twitter": null,
+              "venue_profile_id": null,
+              "venue_profile_url": null,
+              "website": null,
+            },
+            "saves": Object {
+              "saved_by_you": false,
+            },
+            "series_id": null,
+            "start_date": "2018-09-06",
+            "start_time": "22:00",
+            "summary": "Proibida a entrada de menores de 18 anos.",
+            "tags": Array [],
+            "ticket_availability": Object {
+              "has_available_tickets": true,
+              "is_free": false,
+              "is_sold_out": false,
+              "maximum_ticket_price": Object {
+                "currency": "BRL",
+                "display": "210.00 BRL",
+                "major_value": "210.00",
+                "value": 21000,
+              },
+              "minimum_ticket_price": Object {
+                "currency": "BRL",
+                "display": "210.00 BRL",
+                "major_value": "210.00",
+                "value": 21000,
+              },
+            },
+            "tickets_by": "Eventbrite",
+            "tickets_url": "https://www.evbqa.com.br/e/so-track-boa-festival-sao-paulo-2018-tickets-46415158990",
+            "timezone": "America/Sao_Paulo",
+            "url": "https://www.evbqa.com.br/e/so-track-boa-festival-sao-paulo-2018-tickets-46415158990",
+          },
+          Object {
+            "_type": "destination_event",
+            "checkout_flow": "moflo",
+            "eid": "emppyz",
+            "end_date": "2018-08-26",
+            "end_time": "22:00",
+            "eventbrite_event_id": "40111635983",
+            "id": "40111635983",
+            "image": Object {
+              "aspect_ratio": "2",
+              "crop_mask": Object {
+                "height": 480,
+                "top_left": Object {
+                  "x": 0,
+                  "y": 0,
+                },
+                "width": 960,
+              },
+              "edge_color": "#bdbdbd",
+              "edge_color_set": true,
+              "id": "37942294",
+              "original": Object {
+                "height": 640,
+                "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F37942294%2F100196851443%2F1%2Foriginal.jpg?auto=compress&s=769e877eec5d8be675ab85b22ac7ce99",
+                "width": 960,
+              },
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F37942294%2F100196851443%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C960%2C480&s=6a049d4a18f4e7368ba402032fe9b1a2",
+            },
+            "image_id": "37942294",
+            "is_cancelled": null,
+            "my_collections": Object {
+              "collections": Array [
+                Object {
+                  "can_admin": false,
+                  "can_curate": true,
+                  "can_edit": false,
+                  "event_count": 6327,
+                  "id": "cc",
+                  "image_id": null,
+                  "is_quality": true,
+                  "name": "Rally curated events",
+                  "summary": "Events picked by our Rally curators.",
+                },
+              ],
+              "more": false,
+            },
+            "name": "AFROPUNK FEST BROOKLYN 2018",
+            "primary_organizer": Object {
+              "_type": "destination_profile",
+              "facebook": "afropunk",
+              "followed_by_you": false,
+              "id": "6608921867",
+              "image_id": null,
+              "name": "AFROPUNK",
+              "num_collections": null,
+              "num_followers": null,
+              "num_following": null,
+              "num_saves": null,
+              "num_upcoming_events": null,
+              "profile_type": "organizer",
+              "summary": "AFROPUNK is an influential community of young, gifted people of all backgrounds who speak through music, art, film, comedy, fashion and more. Originating with the 2003 documentary that highlighted a B...",
+              "twitter": "afropunk",
+              "url": "https://www.evbqa.com/o/afropunk-6608921867",
+              "website_url": null,
+            },
+            "primary_organizer_id": "6608921867",
+            "primary_venue_id": "10890768",
+            "primary_venue_with_places": Object {
+              "address": Object {
+                "address_1": "Flushing Avenue",
+                "address_2": null,
+                "city": "Brooklyn",
+                "country": "US",
+                "latitude": "40.697332",
+                "localized_address_display": "Flushing Avenue, Brooklyn, NY 11201",
+                "localized_area_display": "Brooklyn, NY",
+                "localized_multi_line_address_display": Array [
+                  "Flushing Avenue",
+                  "Brooklyn, NY 11201",
+                ],
+                "longitude": "-73.978994",
+                "postal_code": "11201",
+                "region": "NY",
+              },
+              "facebook": null,
+              "google_place_id": null,
+              "id": "10890768",
+              "instagram_id": null,
+              "name": "Commodore Barry Park",
+              "places": Object {
+                "borough": Object {
+                  "id": "421205765",
+                  "latitude": 40.652256,
+                  "location_slug": "",
+                  "longitude": -73.956582,
+                  "name": "Brooklyn",
+                  "parent_id": "85977539",
+                  "place_type": "borough",
+                },
+                "continent": Object {
+                  "id": "102191575",
+                  "latitude": 38.309137,
+                  "location_slug": "north-america",
+                  "longitude": -101.328273,
+                  "name": "North America",
+                  "parent_id": "None",
+                  "place_type": "continent",
+                },
+                "country": Object {
+                  "id": "85633793",
+                  "latitude": 39.715956,
+                  "location_slug": "united-states",
+                  "longitude": -96.999668,
+                  "name": "United States",
+                  "parent_id": "102191575",
+                  "place_type": "country",
+                },
+                "locality": Object {
+                  "id": "85977539",
+                  "latitude": 40.68295,
+                  "location_slug": "ny--new-york",
+                  "longitude": -73.9708,
+                  "name": "New York",
+                  "parent_id": "85688543",
+                  "place_type": "locality",
+                },
+                "neighbourhood": Object {
+                  "id": "85820101",
+                  "latitude": 40.689685,
+                  "location_slug": "",
+                  "longitude": -73.975395,
+                  "name": "Fort Greene",
+                  "parent_id": "421205765",
+                  "place_type": "neighbourhood",
+                },
+                "region": Object {
+                  "id": "85688543",
+                  "latitude": 43.408777,
+                  "location_slug": "new-york",
+                  "longitude": -74.871618,
+                  "name": "New York",
+                  "parent_id": "85633793",
+                  "place_type": "region",
+                },
+              },
+              "ref": null,
+              "telephone": null,
+              "twitter": null,
+              "venue_profile_id": null,
+              "venue_profile_url": null,
+              "website": null,
+            },
+            "saves": Object {
+              "saved_by_you": false,
+            },
+            "series_id": null,
+            "start_date": "2018-08-25",
+            "start_time": "12:00",
+            "summary": "AFROPUNK FEST BROOKLYN 2018Commodore Barry ParkSaturday, August 25 & Sunday, August 26
+THIS EVENT IS SOLD OUT
+LINEUP:
+ERYKAH BADU, TYLER, THE CREATOR, MIGUEL, SPECIAL GUEST TBA, THE INTERNET, JANELLE MONAE, TWIN SHADOW, JADEN SMITH, IBEYI, WILLOW SMITH, LOLAWOLF, DANIEL CAESAR, JACOB BANKS, FANTASTIC NEGRITO, H.E.R., YUNA, WICKED WISDOM, DENZEL CURRY, SMINO, SECRET CIRCLE (WIKI, ANTWON, LIL UGLY MANE), THE FEVER 333, LION BABE, NAKHANÉ, JAMILA WOODS, JESSIE REYEZ, MAHALIA, JPEGMAFIA, SHO MADJOZI",
+            "tags": Array [
+              Object {
+                "display_name": "Music",
+                "localized": Object {
+                  "display_name": "Music",
+                },
+                "prefix": "EventbriteCategory",
+                "tag": "EventbriteCategory/103",
+              },
+              Object {
+                "display_name": "Festival or Fair",
+                "prefix": "EventbriteFormat",
+                "tag": "EventbriteFormat/5",
+              },
+            ],
+            "ticket_availability": Object {
+              "has_available_tickets": false,
+              "is_free": false,
+              "is_sold_out": true,
+              "maximum_ticket_price": null,
+              "minimum_ticket_price": null,
+            },
+            "tickets_by": "Eventbrite",
+            "tickets_url": "https://www.evbqa.com/e/afropunk-fest-brooklyn-2018-tickets-40111635983",
+            "timezone": "America/New_York",
+            "url": "https://www.evbqa.com/e/afropunk-fest-brooklyn-2018-tickets-40111635983",
+          },
+          Object {
+            "_type": "destination_event",
+            "checkout_flow": "moflo",
+            "eid": "empkdx",
+            "end_date": "2019-01-28",
+            "end_time": "20:00",
+            "eventbrite_event_id": "40086799697",
+            "id": "40086799697",
+            "image": Object {
+              "aspect_ratio": "2",
+              "crop_mask": Object {
+                "height": 1080,
+                "top_left": Object {
+                  "x": 0,
+                  "y": 0,
+                },
+                "width": 2160,
+              },
+              "edge_color": "#bab2c3",
+              "edge_color_set": true,
+              "id": "46780898",
+              "original": Object {
+                "height": 1080,
+                "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46780898%2F158287430847%2F1%2Foriginal.jpg?auto=compress&s=772b60dfba7235214c9d17bb96f29bbe",
+                "width": 2160,
+              },
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46780898%2F158287430847%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C2160%2C1080&s=518a45ee14ece1dc24e7940f567541d4",
+            },
+            "image_id": "46780898",
+            "is_cancelled": null,
+            "my_collections": Object {},
+            "name": "Rainbow Serpent Festival 2019",
+            "primary_organizer": Object {
+              "_type": "destination_profile",
+              "facebook": "rainbowHQ",
+              "followed_by_you": false,
+              "id": "8441344662",
+              "image_id": null,
+              "name": "Rainbow Serpent Festival",
+              "num_collections": null,
+              "num_followers": null,
+              "num_following": null,
+              "num_saves": null,
+              "num_upcoming_events": null,
+              "profile_type": "organizer",
+              "summary": null,
+              "twitter": "Rainbow_Serpent",
+              "url": "https://www.evbqa.com.au/o/rainbow-serpent-festival-8441344662",
+              "website_url": null,
+            },
+            "primary_organizer_id": "8441344662",
+            "primary_venue_id": "15411968",
+            "primary_venue_with_places": Object {
+              "address": Object {
+                "address_1": "Jack Smiths Lane",
+                "address_2": null,
+                "city": "Lexton",
+                "country": "AU",
+                "latitude": "-37.3010858",
+                "localized_address_display": "Jack Smiths Lane, Lexton, VIC 3352",
+                "localized_area_display": "Lexton, VIC",
+                "localized_multi_line_address_display": Array [
+                  "Jack Smiths Lane",
+                  "Lexton, VIC 3352",
+                ],
+                "longitude": "143.47433279999996",
+                "postal_code": "3352",
+                "region": "VIC",
+              },
+              "facebook": null,
+              "google_place_id": null,
+              "id": "15411968",
+              "instagram_id": null,
+              "name": null,
+              "places": Object {
+                "continent": Object {
+                  "id": "102191583",
+                  "latitude": -24.130111,
+                  "location_slug": "oceania",
+                  "longitude": 134.050312,
+                  "name": "Oceania",
+                  "parent_id": "None",
+                  "place_type": "continent",
+                },
+                "country": Object {
+                  "id": "85632793",
+                  "latitude": -23.992438,
+                  "location_slug": "australia",
+                  "longitude": 134.050443,
+                  "name": "Australia",
+                  "parent_id": "102191583",
+                  "place_type": "country",
+                },
+                "region": Object {
+                  "id": "85681497",
+                  "latitude": -37.014348,
+                  "location_slug": "victoria",
+                  "longitude": 143.480452,
+                  "name": "Victoria",
+                  "parent_id": "85632793",
+                  "place_type": "region",
+                },
+              },
+              "ref": null,
+              "telephone": null,
+              "twitter": null,
+              "venue_profile_id": null,
+              "venue_profile_url": null,
+              "website": null,
+            },
+            "saves": Object {
+              "saved_by_you": false,
+            },
+            "series_id": null,
+            "start_date": "2019-01-25",
+            "start_time": "12:00",
+            "summary": "Tickets for Rainbow Serpent Festival 2019 are on sale now!
+ 
+ 
+We have made some changes to the process of purchasing tickets this year. Please read and follow steps 1-3 in the FAQ on the Rainbow Serpent website to successfully purchase tickets to Rainbow Serpent Festival 2019.
+
+You will need to:
+
+Register for a user account on the Rainbow Serpent Festival website
+Answer a short series of multiple choice questions in order to generate a code
+Use the code you have generated to purchase t",
+            "tags": Array [
+              Object {
+                "display_name": "Music",
+                "localized": Object {
+                  "display_name": "Music",
+                },
+                "prefix": "EventbriteCategory",
+                "tag": "EventbriteCategory/103",
+              },
+              Object {
+                "display_name": "Festival or Fair",
+                "prefix": "EventbriteFormat",
+                "tag": "EventbriteFormat/5",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "Festival",
+                "prefix": "Auto",
+                "tag": "Auto/Festival",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "Dance",
+                "prefix": "Auto",
+                "tag": "Auto/Dance",
+              },
+            ],
+            "ticket_availability": Object {
+              "has_available_tickets": true,
+              "is_free": false,
+              "is_sold_out": false,
+              "maximum_ticket_price": Object {
+                "currency": "AUD",
+                "display": "30.00 AUD",
+                "major_value": "30.00",
+                "value": 3000,
+              },
+              "minimum_ticket_price": Object {
+                "currency": "AUD",
+                "display": "30.00 AUD",
+                "major_value": "30.00",
+                "value": 3000,
+              },
+            },
+            "tickets_by": "Eventbrite",
+            "tickets_url": "https://www.evbqa.com.au/e/rainbow-serpent-festival-2019-tickets-40086799697",
+            "timezone": "Australia/Melbourne",
+            "url": "https://www.evbqa.com.au/e/rainbow-serpent-festival-2019-tickets-40086799697",
+          },
+          Object {
+            "_type": "destination_event",
+            "checkout_flow": "moflo",
+            "eid": "emchpx",
+            "end_date": "2018-09-23",
+            "end_time": "23:59",
+            "eventbrite_event_id": "37868124580",
+            "id": "37868124580",
+            "image": Object {
+              "aspect_ratio": "2",
+              "crop_mask": Object {
+                "height": 1080,
+                "top_left": Object {
+                  "x": 0,
+                  "y": 0,
+                },
+                "width": 2160,
+              },
+              "edge_color": "#1b578e",
+              "edge_color_set": true,
+              "id": "46818794",
+              "original": Object {
+                "height": 1080,
+                "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46818794%2F226441600696%2F1%2Foriginal.jpg?auto=compress&s=56422e84f1e2b2fe6766e228d606ef43",
+                "width": 2160,
+              },
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46818794%2F226441600696%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C2160%2C1080&s=78a05f3fbda6079e32ffdcedd40fc35b",
+            },
+            "image_id": "46818794",
+            "is_cancelled": null,
+            "my_collections": Object {},
+            "name": "Imagine Festival 2018 | Armin Van Buuren, Bassnectar, Kaskade, Alesso, Galantis, RL Grime, Zeds Dead, The Glitch Mob, Adventure Club, Getter, Griz, Zhu, Green Velvet, Oliver Heldens +++ | Atlanta, GA",
+            "primary_organizer": Object {
+              "_type": "destination_profile",
+              "facebook": "imaginemusicfestival",
+              "followed_by_you": false,
+              "id": "15105107749",
+              "image_id": "46820810",
+              "name": "Imagine Festival",
+              "num_collections": null,
+              "num_followers": null,
+              "num_following": null,
+              "num_saves": null,
+              "num_upcoming_events": null,
+              "profile_type": "organizer",
+              "summary": "Imagine Music Festival (IMF) is a three-day music & camping festival held in Atlanta, Georgia. Founded by IRIS Presents, the festival features multiple stages hosting the world’s top musicians, bands ...",
+              "twitter": "imaginemusicfes",
+              "url": "https://www.evbqa.com/o/imagine-festival-15105107749",
+              "website_url": null,
+            },
+            "primary_organizer_id": "15105107749",
+            "primary_venue_id": "26106812",
+            "primary_venue_with_places": Object {
+              "address": Object {
+                "address_1": null,
+                "address_2": null,
+                "city": "Atlanta",
+                "country": "US",
+                "latitude": "33.386825",
+                "localized_address_display": "Atlanta, GA",
+                "localized_area_display": "Atlanta, GA",
+                "localized_multi_line_address_display": Array [
+                  "Atlanta, GA",
+                ],
+                "longitude": "-84.31640299999998",
+                "postal_code": null,
+                "region": "GA",
+              },
+              "facebook": null,
+              "google_place_id": null,
+              "id": "26106812",
+              "instagram_id": null,
+              "name": "Atlanta Motor Speedway",
+              "places": Object {
+                "continent": Object {
+                  "id": "102191575",
+                  "latitude": 38.309137,
+                  "location_slug": "north-america",
+                  "longitude": -101.328273,
+                  "name": "North America",
+                  "parent_id": "None",
+                  "place_type": "continent",
+                },
+                "country": Object {
+                  "id": "85633793",
+                  "latitude": 39.715956,
+                  "location_slug": "united-states",
+                  "longitude": -96.999668,
+                  "name": "United States",
+                  "parent_id": "102191575",
+                  "place_type": "country",
+                },
+                "county": Object {
+                  "id": "102082899",
+                  "latitude": 33.449104,
+                  "location_slug": "",
+                  "longitude": -84.157436,
+                  "name": "Henry",
+                  "parent_id": "85688535",
+                  "place_type": "county",
+                },
+                "neighbourhood": Object {
+                  "id": "85858817",
+                  "latitude": 33.384404,
+                  "location_slug": "",
+                  "longitude": -84.315613,
+                  "name": "Woodlawn",
+                  "parent_id": "102082899",
+                  "place_type": "neighbourhood",
+                },
+                "region": Object {
+                  "id": "85688535",
+                  "latitude": 32.53951,
+                  "location_slug": "georgia",
+                  "longitude": -83.380775,
+                  "name": "Georgia",
+                  "parent_id": "85633793",
+                  "place_type": "region",
+                },
+              },
+              "ref": null,
+              "telephone": null,
+              "twitter": null,
+              "venue_profile_id": null,
+              "venue_profile_url": null,
+              "website": null,
+            },
+            "saves": Object {
+              "saved_by_you": false,
+            },
+            "series_id": null,
+            "start_date": "2018-09-21",
+            "start_time": "17:00",
+            "summary": "BASSNECTAR AND KASKADE JOIN HEADLINERS ARMIN VAN BUUREN, ALESSO, GALANTIS, RL GRIME AND ZEDS DEAD FOR THE 5TH ANNIVERSARY IMAGINE MUSIC FESTIVAL, SEPTEMBER 21-23, 2018
+Special Guests: The Glitch Mob and Getter, Along with Green Velvet Presents: La La Land, Latmun, Tiga, Boogie T & Squnto, DJSS, Yheti b2b Toadface, Kenneth Thomas, and Weiss and Over 70 Local Artists Added to the Lineup
+Welcome to the Aquatic Fairytale.
+Imagine Music Festival (IMF) is an electronic dance music festival held in Atl",
+            "tags": Array [
+              Object {
+                "display_name": "EDM / Electronic",
+                "prefix": "EventbriteSubCategory",
+                "tag": "EventbriteSubCategory/3006",
+              },
+              Object {
+                "display_name": "Music",
+                "localized": Object {
+                  "display_name": "Music",
+                },
+                "prefix": "EventbriteCategory",
+                "tag": "EventbriteCategory/103",
+              },
+              Object {
+                "display_name": "Festival or Fair",
+                "prefix": "EventbriteFormat",
+                "tag": "EventbriteFormat/5",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "Club",
+                "prefix": "Auto",
+                "tag": "Auto/Club",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "Festival",
+                "prefix": "Auto",
+                "tag": "Auto/Festival",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "Dance",
+                "prefix": "Auto",
+                "tag": "Auto/Dance",
+              },
+            ],
+            "ticket_availability": Object {
+              "has_available_tickets": true,
+              "is_free": false,
+              "is_sold_out": false,
+              "maximum_ticket_price": Object {
+                "currency": "USD",
+                "display": "1499.00 USD",
+                "major_value": "1499.00",
+                "value": 149900,
+              },
+              "minimum_ticket_price": Object {
+                "currency": "USD",
+                "display": "49.00 USD",
+                "major_value": "49.00",
+                "value": 4900,
+              },
+            },
+            "tickets_by": "Eventbrite",
+            "tickets_url": "https://www.evbqa.com/e/imagine-festival-2018-armin-van-buuren-bassnectar-kaskade-alesso-galantis-rl-grime-zeds-dead-the-tickets-37868124580",
+            "timezone": "America/New_York",
+            "url": "https://www.evbqa.com/e/imagine-festival-2018-armin-van-buuren-bassnectar-kaskade-alesso-galantis-rl-grime-zeds-dead-the-tickets-37868124580",
+          },
+          Object {
+            "_type": "destination_event",
+            "checkout_flow": "moflo",
+            "eid": "ewhcpm",
+            "end_date": "2018-10-08",
+            "end_time": "12:00",
+            "eventbrite_event_id": "45998453613",
+            "id": "45998453613",
+            "image": Object {
+              "aspect_ratio": "2",
+              "crop_mask": Object {
+                "height": 583,
+                "top_left": Object {
+                  "x": 0,
+                  "y": 4,
+                },
+                "width": 1166,
+              },
+              "edge_color": "#aab6be",
+              "edge_color_set": true,
+              "id": "46202683",
+              "original": Object {
+                "height": 592,
+                "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46202683%2F178727404063%2F1%2Foriginal.jpg?auto=compress&s=4d6d840e0c2c1d1b5634b46eb333df59",
+                "width": 1166,
+              },
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46202683%2F178727404063%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C4%2C1166%2C583&s=d3c55e7b6f5a8db6e7fee3a182d83052",
+            },
+            "image_id": "46202683",
+            "is_cancelled": null,
+            "my_collections": Object {},
+            "name": "Dirtybird Campout West Coast 2018",
+            "primary_organizer": Object {
+              "_type": "destination_profile",
+              "facebook": "dirtybirdrecords",
+              "followed_by_you": false,
+              "id": "10893015058",
+              "image_id": "46029183",
+              "name": "Dirtybird",
+              "num_collections": null,
+              "num_followers": null,
+              "num_following": null,
+              "num_saves": null,
+              "num_upcoming_events": null,
+              "profile_type": "organizer",
+              "summary": null,
+              "twitter": "dirtybird",
+              "url": "https://www.evbqa.com/o/dirtybird-10893015058",
+              "website_url": null,
+            },
+            "primary_organizer_id": "10893015058",
+            "primary_venue_id": "25103519",
+            "primary_venue_with_places": Object {
+              "address": Object {
+                "address_1": "18143 Reservoir Rd",
+                "address_2": null,
+                "city": "Waterford",
+                "country": "US",
+                "latitude": "37.6605214",
+                "localized_address_display": "18143 Reservoir Rd, Waterford, CA 95386",
+                "localized_area_display": "Waterford, CA",
+                "localized_multi_line_address_display": Array [
+                  "18143 Reservoir Rd",
+                  "Waterford, CA 95386",
+                ],
+                "longitude": "-120.65596670000002",
+                "postal_code": "95386",
+                "region": "CA",
+              },
+              "facebook": null,
+              "google_place_id": null,
+              "id": "25103519",
+              "instagram_id": null,
+              "name": "Modesto Reservoir Campgrounds",
+              "places": Object {
+                "continent": Object {
+                  "id": "102191575",
+                  "latitude": 38.309137,
+                  "location_slug": "north-america",
+                  "longitude": -101.328273,
+                  "name": "North America",
+                  "parent_id": "None",
+                  "place_type": "continent",
+                },
+                "country": Object {
+                  "id": "85633793",
+                  "latitude": 39.715956,
+                  "location_slug": "united-states",
+                  "longitude": -96.999668,
+                  "name": "United States",
+                  "parent_id": "102191575",
+                  "place_type": "country",
+                },
+                "county": Object {
+                  "id": "102083579",
+                  "latitude": 37.565486,
+                  "location_slug": "",
+                  "longitude": -121.035063,
+                  "name": "Stanislaus",
+                  "parent_id": "85688637",
+                  "place_type": "county",
+                },
+                "region": Object {
+                  "id": "85688637",
+                  "latitude": 36.531544,
+                  "location_slug": "california",
+                  "longitude": -119.586168,
+                  "name": "California",
+                  "parent_id": "85633793",
+                  "place_type": "region",
+                },
+              },
+              "ref": null,
+              "telephone": null,
+              "twitter": null,
+              "venue_profile_id": null,
+              "venue_profile_url": null,
+              "website": null,
+            },
+            "saves": Object {
+              "saved_by_you": false,
+            },
+            "series_id": null,
+            "start_date": "2018-10-05",
+            "start_time": "12:00",
+            "summary": "FAQs
+
+ 
+Dirtybird Campout West Coast is an adult summer camp and music festival held October 5th- 7th, 2018. This is our 4th annual West Coast Campout and we have a new venue: Modesto Reservoir Campgrounds.  Early Arrival Pass holders can access the campgrounds and festival areas on Thursday, October 4th, 2018 at 2pm. An Early Arrival Pass must be purchased to arrive on this date. Gate opening time is 2pm. There will be a Pajama Party and a surprise DJ set Thursday evening (time TBD).  The Di",
+            "tags": Array [
+              Object {
+                "display_name": "EDM / Electronic",
+                "prefix": "EventbriteSubCategory",
+                "tag": "EventbriteSubCategory/3006",
+              },
+              Object {
+                "display_name": "Music",
+                "localized": Object {
+                  "display_name": "Music",
+                },
+                "prefix": "EventbriteCategory",
+                "tag": "EventbriteCategory/103",
+              },
+              Object {
+                "display_name": "Festival or Fair",
+                "prefix": "EventbriteFormat",
+                "tag": "EventbriteFormat/5",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "Festival",
+                "prefix": "Auto",
+                "tag": "Auto/Festival",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "Party",
+                "prefix": "Auto",
+                "tag": "Auto/Party",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "Camp",
+                "prefix": "Auto",
+                "tag": "Auto/Camp",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "DJ",
+                "prefix": "Auto",
+                "tag": "Auto/DJ",
+              },
+            ],
+            "ticket_availability": Object {
+              "has_available_tickets": true,
+              "is_free": false,
+              "is_sold_out": false,
+              "maximum_ticket_price": Object {
+                "currency": "USD",
+                "display": "1349.00 USD",
+                "major_value": "1349.00",
+                "value": 134900,
+              },
+              "minimum_ticket_price": Object {
+                "currency": "USD",
+                "display": "20.00 USD",
+                "major_value": "20.00",
+                "value": 2000,
+              },
+            },
+            "tickets_by": "Eventbrite",
+            "tickets_url": "https://www.evbqa.com/e/dirtybird-campout-west-coast-2018-tickets-45998453613",
+            "timezone": "America/Los_Angeles",
+            "url": "https://www.evbqa.com/e/dirtybird-campout-west-coast-2018-tickets-45998453613",
+          },
+          Object {
+            "_type": "destination_event",
+            "checkout_flow": "moflo",
+            "eid": "ewywhf",
+            "end_date": "2018-09-23",
+            "end_time": "09:00",
+            "eventbrite_event_id": "46298185118",
+            "id": "46298185118",
+            "image": Object {
+              "aspect_ratio": "2",
+              "crop_mask": Object {
+                "height": 996,
+                "top_left": Object {
+                  "x": 0,
+                  "y": 25,
+                },
+                "width": 1992,
+              },
+              "edge_color": "#261f38",
+              "edge_color_set": true,
+              "id": "45458208",
+              "original": Object {
+                "height": 1046,
+                "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F45458208%2F236638330639%2F1%2Foriginal.jpg?auto=compress&s=2572f7e180a731051836bcad2100df97",
+                "width": 1992,
+              },
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F45458208%2F236638330639%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C25%2C1992%2C996&s=0384ce8882425a0d69b03e55db198c6b",
+            },
+            "image_id": "45458208",
+            "is_cancelled": null,
+            "my_collections": Object {},
+            "name": "XXXPERIENCE - Revolution 2.2 INGRESSOS",
+            "primary_organizer": Object {
+              "_type": "destination_profile",
+              "facebook": "events/871778573000623",
+              "followed_by_you": false,
+              "id": "17356078010",
+              "image_id": null,
+              "name": "No Limits Eventos",
+              "num_collections": null,
+              "num_followers": null,
+              "num_following": null,
+              "num_saves": null,
+              "num_upcoming_events": null,
+              "profile_type": "organizer",
+              "summary": null,
+              "twitter": "xxxperience",
+              "url": "https://www.evbqa.com.br/o/no-limits-eventos-17356078010",
+              "website_url": null,
+            },
+            "primary_organizer_id": "17356078010",
+            "primary_venue_id": "24901159",
+            "primary_venue_with_places": Object {
+              "address": Object {
+                "address_1": "Rodovia Deputado Archimedes Lamoglia",
+                "address_2": "Km 18, s/n - Zona Rural",
+                "city": "Itu",
+                "country": "BR",
+                "latitude": "-23.342197",
+                "localized_address_display": "Rodovia Deputado Archimedes Lamoglia Km 18, s/n - Zona Rural, Itu, SP",
+                "localized_area_display": "Itu, SP",
+                "localized_multi_line_address_display": Array [
+                  "Rodovia Deputado Archimedes Lamoglia",
+                  "Km 18, s/n - Zona Rural",
+                  "Itu, SP",
+                ],
+                "longitude": "-47.34586030000003",
+                "postal_code": null,
+                "region": "SP",
+              },
+              "facebook": null,
+              "google_place_id": null,
+              "id": "24901159",
+              "instagram_id": null,
+              "name": "Fazenda Maeda",
+              "places": Object {
+                "continent": Object {
+                  "id": "102191577",
+                  "latitude": -12.819233,
+                  "location_slug": "south-america",
+                  "longitude": -50.657067,
+                  "name": "South America",
+                  "parent_id": "None",
+                  "place_type": "continent",
+                },
+                "country": Object {
+                  "id": "85633009",
+                  "latitude": -11.928923,
+                  "location_slug": "brazil",
+                  "longitude": -49.542449,
+                  "name": "Brazil",
+                  "parent_id": "102191577",
+                  "place_type": "country",
+                },
+                "region": Object {
+                  "id": "85682041",
+                  "latitude": -22.154376,
+                  "location_slug": "são-paulo",
+                  "longitude": -48.428808,
+                  "name": "SÃO PAULO",
+                  "parent_id": "85633009",
+                  "place_type": "region",
+                },
+              },
+              "ref": null,
+              "telephone": null,
+              "twitter": null,
+              "venue_profile_id": null,
+              "venue_profile_url": null,
+              "website": null,
+            },
+            "saves": Object {
+              "saved_by_you": false,
+            },
+            "series_id": null,
+            "start_date": "2018-09-22",
+            "start_time": "16:00",
+            "summary": "Bem-vindo!
+Garanta aqui seu acesso à Edição Especial de 22 Anos do maior festival de música eletrônica do Brasil!
+ 
+A \\"versão 2\\" da nossa \\"Nonsense Journey\\" é na verdade uma \\"versão 2.2\\", já que dia 22 de Setembro vamos celebrar 22 anos de XXXPERIENCE!
+ 
+O #XXX22 vai reunir mais de 50 atrações em 5 palcos na tradicional Arena Maeda, em Itu/SP, dia 22 de Setembro, incluindo atrações como Vini Vici, Neelix, Malaa, Guy Gerber, Dubfire, Claptone, Solardo, Patrice Bäumel, Undercover e muito mais!
+ 
+P",
+            "tags": Array [
+              Object {
+                "display_name": "Music",
+                "localized": Object {
+                  "display_name": "Music",
+                },
+                "prefix": "EventbriteCategory",
+                "tag": "EventbriteCategory/103",
+              },
+              Object {
+                "display_name": "Festival or Fair",
+                "prefix": "EventbriteFormat",
+                "tag": "EventbriteFormat/5",
+              },
+              Object {
+                "_type": "tag",
+                "display_name": "Festival",
+                "prefix": "Auto",
+                "tag": "Auto/Festival",
+              },
+            ],
+            "ticket_availability": Object {
+              "has_available_tickets": false,
+              "is_free": false,
+              "is_sold_out": true,
+              "maximum_ticket_price": null,
+              "minimum_ticket_price": null,
+            },
+            "tickets_by": "Eventbrite",
+            "tickets_url": "https://www.evbqa.com.br/e/xxxperience-revolution-22-ingressos-tickets-46298185118",
+            "timezone": "America/Sao_Paulo",
+            "url": "https://www.evbqa.com.br/e/xxxperience-revolution-22-ingressos-tickets-46298185118",
+          },
+        ],
+      }
+    }
+  >
+    <section
+      className="events-list"
+    >
+      <EventItem
+        address={
+          Object {
+            "address_1": null,
+            "address_2": null,
+            "city": "Natal",
+            "country": "BR",
+            "latitude": "-5.7792569",
+            "localized_address_display": "Natal, Rio Grande do Norte",
+            "localized_area_display": "Natal, Rio Grande do Norte",
+            "localized_multi_line_address_display": Array [
+              "Natal, Rio Grande do Norte",
+            ],
+            "longitude": "-35.20091600000001",
+            "postal_code": null,
+            "region": "Rio Grande do Norte",
+          }
+        }
+        image={
+          Object {
+            "aspect_ratio": "2",
+            "crop_mask": Object {
+              "height": 1080,
+              "top_left": Object {
+                "x": 0,
+                "y": 0,
+              },
+              "width": 2160,
+            },
+            "edge_color": "#1b2977",
+            "edge_color_set": true,
+            "id": "47796618",
+            "original": Object {
+              "height": 1080,
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F47796618%2F238672898614%2F1%2Foriginal.jpg?auto=compress&s=e923b56b038f5c2a53319ad19bb6215f",
+              "width": 2160,
+            },
+            "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F47796618%2F238672898614%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C2160%2C1080&s=217cb46eb42120eb2191402569a39491",
+          }
+        }
+        key="48246888743"
+        name="CARNATAL 2018"
+        ticketAvailability={
+          Object {
+            "has_available_tickets": true,
+            "is_free": false,
+            "is_sold_out": false,
+            "maximum_ticket_price": Object {
+              "currency": "BRL",
+              "display": "720.00 BRL",
+              "major_value": "720.00",
+              "value": 72000,
+            },
+            "minimum_ticket_price": Object {
+              "currency": "BRL",
+              "display": "130.00 BRL",
+              "major_value": "130.00",
+              "value": 13000,
+            },
+          }
+        }
+      >
+        <article
+          className="events-list__item"
+        >
+          <div
+            className="events-list__item-content"
+          >
+            <div
+              className="events-list__image"
+            >
+              <img
+                height="175"
+                src="https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F47796618%2F238672898614%2F1%2Foriginal.jpg?auto=compress&s=e923b56b038f5c2a53319ad19bb6215f"
+                width="350"
+              />
+            </div>
+            <div
+              className="events-list__summary"
+            >
+              <header>
+                <h2
+                  className="events-list__title"
+                >
+                  CARNATAL 2018
+                </h2>
+              </header>
+              <p
+                className="events-list__text"
+              >
+                Sat, Aug 25, 11:00am
+              </p>
+              <p
+                className="events-list__text"
+              />
+              <p
+                className="events-list__text"
+              >
+                freemium o premium
+              </p>
+            </div>
+          </div>
+        </article>
+      </EventItem>
+      <EventItem
+        address={
+          Object {
+            "address_1": "1148 Main Avenue",
+            "address_2": null,
+            "city": "Cleveland",
+            "country": "US",
+            "latitude": "41.49824599999999",
+            "localized_address_display": "1148 Main Avenue, Cleveland, OH 44113",
+            "localized_area_display": "Cleveland, OH",
+            "localized_multi_line_address_display": Array [
+              "1148 Main Avenue",
+              "Cleveland, OH 44113",
+            ],
+            "longitude": "-81.7069869",
+            "postal_code": "44113",
+            "region": "OH",
+          }
+        }
+        image={
+          Object {
+            "aspect_ratio": "2",
+            "crop_mask": Object {
+              "height": 400,
+              "top_left": Object {
+                "x": 0,
+                "y": 0,
+              },
+              "width": 800,
+            },
+            "edge_color": "#69418d",
+            "edge_color_set": true,
+            "id": "47080018",
+            "original": Object {
+              "height": 400,
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F47080018%2F221024390825%2F1%2Foriginal.jpg?auto=compress&s=a04446c2b0a4fe14ed442c65bc4569e1",
+              "width": 800,
+            },
+            "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F47080018%2F221024390825%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C800%2C400&s=23792be9c0f9d118279c24a12955feda",
+          }
+        }
+        key="47981225136"
+        name="FREE TICKETS! CLEVELAND IMPROV 8/29 Stand Up Comedy Show "
+        ticketAvailability={
+          Object {
+            "has_available_tickets": false,
+            "is_free": true,
+            "is_sold_out": true,
+            "maximum_ticket_price": Object {
+              "currency": "USD",
+              "display": "0.00 USD",
+              "major_value": "0.00",
+              "value": 0,
+            },
+            "minimum_ticket_price": Object {
+              "currency": "USD",
+              "display": "0.00 USD",
+              "major_value": "0.00",
+              "value": 0,
+            },
+          }
+        }
+      >
+        <article
+          className="events-list__item"
+        >
+          <div
+            className="events-list__item-content"
+          >
+            <div
+              className="events-list__image"
+            >
+              <div
+                className="events-list__tooltip"
+              >
+                <span>
+                  Free
+                </span>
+              </div>
+              <img
+                height="175"
+                src="https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F47080018%2F221024390825%2F1%2Foriginal.jpg?auto=compress&s=a04446c2b0a4fe14ed442c65bc4569e1"
+                width="350"
+              />
+            </div>
+            <div
+              className="events-list__summary"
+            >
+              <header>
+                <h2
+                  className="events-list__title"
+                >
+                  FREE TICKETS! CLEVELAND IMPROV 8/29 Stand Up Comedy Show 
+                </h2>
+              </header>
+              <p
+                className="events-list__text"
+              >
+                Sat, Aug 25, 11:00am
+              </p>
+              <p
+                className="events-list__text"
+              >
+                1148 Main Avenue
+              </p>
+              <p
+                className="events-list__text"
+              >
+                freemium o premium
+              </p>
+            </div>
+          </div>
+        </article>
+      </EventItem>
+      <EventItem
+        address={
+          Object {
+            "address_1": null,
+            "address_2": null,
+            "city": "Las Vegas",
+            "country": "US",
+            "latitude": "36.1699412",
+            "localized_address_display": "Las Vegas, NV",
+            "localized_area_display": "Las Vegas, NV",
+            "localized_multi_line_address_display": Array [
+              "Las Vegas, NV",
+            ],
+            "longitude": "-115.13982959999998",
+            "postal_code": null,
+            "region": "NV",
+          }
+        }
+        image={
+          Object {
+            "aspect_ratio": "2",
+            "crop_mask": Object {
+              "height": 1080,
+              "top_left": Object {
+                "x": 0,
+                "y": 0,
+              },
+              "width": 2160,
+            },
+            "edge_color": "#815202",
+            "edge_color_set": true,
+            "id": "43675044",
+            "original": Object {
+              "height": 1080,
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F43675044%2F250264865323%2F1%2Foriginal.jpg?auto=compress&s=e82ca8c94985b717a703c7b081ef90a2",
+              "width": 2160,
+            },
+            "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F43675044%2F250264865323%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C2160%2C1080&s=f76595ab68e8b1a59a48cf8a3792926a",
+          }
+        }
+        key="44610109037"
+        name="Life is Beautiful Music & Art Festival 2018"
+        ticketAvailability={
+          Object {
+            "has_available_tickets": true,
+            "is_free": false,
+            "is_sold_out": false,
+            "maximum_ticket_price": Object {
+              "currency": "USD",
+              "display": "2495.00 USD",
+              "major_value": "2495.00",
+              "value": 249500,
+            },
+            "minimum_ticket_price": Object {
+              "currency": "USD",
+              "display": "45.00 USD",
+              "major_value": "45.00",
+              "value": 4500,
+            },
+          }
+        }
+      >
+        <article
+          className="events-list__item"
+        >
+          <div
+            className="events-list__item-content"
+          >
+            <div
+              className="events-list__image"
+            >
+              <img
+                height="175"
+                src="https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F43675044%2F250264865323%2F1%2Foriginal.jpg?auto=compress&s=e82ca8c94985b717a703c7b081ef90a2"
+                width="350"
+              />
+            </div>
+            <div
+              className="events-list__summary"
+            >
+              <header>
+                <h2
+                  className="events-list__title"
+                >
+                  Life is Beautiful Music & Art Festival 2018
+                </h2>
+              </header>
+              <p
+                className="events-list__text"
+              >
+                Sat, Aug 25, 11:00am
+              </p>
+              <p
+                className="events-list__text"
+              />
+              <p
+                className="events-list__text"
+              >
+                freemium o premium
+              </p>
+            </div>
+          </div>
+        </article>
+      </EventItem>
+      <EventItem
+        address={
+          Object {
+            "address_1": "1201 South Figueroa Street ",
+            "address_2": null,
+            "city": "Los Angeles",
+            "country": "US",
+            "latitude": "34.0401988",
+            "localized_address_display": "1201 South Figueroa Street , Los Angeles, CA 90015",
+            "localized_area_display": "Los Angeles, CA",
+            "localized_multi_line_address_display": Array [
+              "1201 South Figueroa Street",
+              "Los Angeles, CA 90015",
+            ],
+            "longitude": "-118.2695539",
+            "postal_code": "90015",
+            "region": "CA",
+          }
+        }
+        image={
+          Object {
+            "aspect_ratio": "2",
+            "crop_mask": Object {
+              "height": 1080,
+              "top_left": Object {
+                "x": 0,
+                "y": 0,
+              },
+              "width": 2160,
+            },
+            "edge_color": "#ffffff",
+            "edge_color_set": true,
+            "id": "44860208",
+            "original": Object {
+              "height": 1080,
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F44860208%2F137800823461%2F1%2Foriginal.jpg?auto=compress&s=1ca176645d5a8cb5f89df3162a6533b7",
+              "width": 2160,
+            },
+            "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F44860208%2F137800823461%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C2160%2C1080&s=a4ead673b460ab80601cadf3069efad1",
+          }
+        }
+        key="46087765748"
+        name="Anime Expo 2019 Registration"
+        ticketAvailability={
+          Object {
+            "has_available_tickets": true,
+            "is_free": false,
+            "is_sold_out": false,
+            "maximum_ticket_price": Object {
+              "currency": "USD",
+              "display": "80.00 USD",
+              "major_value": "80.00",
+              "value": 8000,
+            },
+            "minimum_ticket_price": Object {
+              "currency": "USD",
+              "display": "35.00 USD",
+              "major_value": "35.00",
+              "value": 3500,
+            },
+          }
+        }
+      >
+        <article
+          className="events-list__item"
+        >
+          <div
+            className="events-list__item-content"
+          >
+            <div
+              className="events-list__image"
+            >
+              <img
+                height="175"
+                src="https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F44860208%2F137800823461%2F1%2Foriginal.jpg?auto=compress&s=1ca176645d5a8cb5f89df3162a6533b7"
+                width="350"
+              />
+            </div>
+            <div
+              className="events-list__summary"
+            >
+              <header>
+                <h2
+                  className="events-list__title"
+                >
+                  Anime Expo 2019 Registration
+                </h2>
+              </header>
+              <p
+                className="events-list__text"
+              >
+                Sat, Aug 25, 11:00am
+              </p>
+              <p
+                className="events-list__text"
+              >
+                1201 South Figueroa Street 
+              </p>
+              <p
+                className="events-list__text"
+              >
+                freemium o premium
+              </p>
+            </div>
+          </div>
+        </article>
+      </EventItem>
+      <EventItem
+        address={
+          Object {
+            "address_1": null,
+            "address_2": null,
+            "city": "São Paulo",
+            "country": "BR",
+            "latitude": "-23.5505199",
+            "localized_address_display": "São Paulo, São Paulo",
+            "localized_area_display": "São Paulo, São Paulo",
+            "localized_multi_line_address_display": Array [
+              "São Paulo, São Paulo",
+            ],
+            "longitude": "-46.63330939999997",
+            "postal_code": null,
+            "region": "São Paulo",
+          }
+        }
+        image={
+          Object {
+            "aspect_ratio": "2",
+            "crop_mask": Object {
+              "height": 1080,
+              "top_left": Object {
+                "x": 0,
+                "y": 0,
+              },
+              "width": 2160,
+            },
+            "edge_color": "#fbe2aa",
+            "edge_color_set": true,
+            "id": "46848804",
+            "original": Object {
+              "height": 1080,
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46848804%2F206948369607%2F1%2Foriginal.jpg?auto=compress&s=3fdc596f5f2b171218335a905ffe15fb",
+              "width": 2160,
+            },
+            "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46848804%2F206948369607%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C2160%2C1080&s=493f303a3c05f6ca9513b7b305fa7ea6",
+          }
+        }
+        key="46415158990"
+        name="Só Track Boa Festival :: São Paulo :: 2018 ::"
+        ticketAvailability={
+          Object {
+            "has_available_tickets": true,
+            "is_free": false,
+            "is_sold_out": false,
+            "maximum_ticket_price": Object {
+              "currency": "BRL",
+              "display": "210.00 BRL",
+              "major_value": "210.00",
+              "value": 21000,
+            },
+            "minimum_ticket_price": Object {
+              "currency": "BRL",
+              "display": "210.00 BRL",
+              "major_value": "210.00",
+              "value": 21000,
+            },
+          }
+        }
+      >
+        <article
+          className="events-list__item"
+        >
+          <div
+            className="events-list__item-content"
+          >
+            <div
+              className="events-list__image"
+            >
+              <img
+                height="175"
+                src="https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46848804%2F206948369607%2F1%2Foriginal.jpg?auto=compress&s=3fdc596f5f2b171218335a905ffe15fb"
+                width="350"
+              />
+            </div>
+            <div
+              className="events-list__summary"
+            >
+              <header>
+                <h2
+                  className="events-list__title"
+                >
+                  Só Track Boa Festival :: São Paulo :: 2018 ::
+                </h2>
+              </header>
+              <p
+                className="events-list__text"
+              >
+                Sat, Aug 25, 11:00am
+              </p>
+              <p
+                className="events-list__text"
+              />
+              <p
+                className="events-list__text"
+              >
+                freemium o premium
+              </p>
+            </div>
+          </div>
+        </article>
+      </EventItem>
+      <EventItem
+        address={
+          Object {
+            "address_1": "Flushing Avenue",
+            "address_2": null,
+            "city": "Brooklyn",
+            "country": "US",
+            "latitude": "40.697332",
+            "localized_address_display": "Flushing Avenue, Brooklyn, NY 11201",
+            "localized_area_display": "Brooklyn, NY",
+            "localized_multi_line_address_display": Array [
+              "Flushing Avenue",
+              "Brooklyn, NY 11201",
+            ],
+            "longitude": "-73.978994",
+            "postal_code": "11201",
+            "region": "NY",
+          }
+        }
+        image={
+          Object {
+            "aspect_ratio": "2",
+            "crop_mask": Object {
+              "height": 480,
+              "top_left": Object {
+                "x": 0,
+                "y": 0,
+              },
+              "width": 960,
+            },
+            "edge_color": "#bdbdbd",
+            "edge_color_set": true,
+            "id": "37942294",
+            "original": Object {
+              "height": 640,
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F37942294%2F100196851443%2F1%2Foriginal.jpg?auto=compress&s=769e877eec5d8be675ab85b22ac7ce99",
+              "width": 960,
+            },
+            "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F37942294%2F100196851443%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C960%2C480&s=6a049d4a18f4e7368ba402032fe9b1a2",
+          }
+        }
+        key="40111635983"
+        name="AFROPUNK FEST BROOKLYN 2018"
+        ticketAvailability={
+          Object {
+            "has_available_tickets": false,
+            "is_free": false,
+            "is_sold_out": true,
+            "maximum_ticket_price": null,
+            "minimum_ticket_price": null,
+          }
+        }
+      >
+        <article
+          className="events-list__item"
+        >
+          <div
+            className="events-list__item-content"
+          >
+            <div
+              className="events-list__image"
+            >
+              <img
+                height="175"
+                src="https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F37942294%2F100196851443%2F1%2Foriginal.jpg?auto=compress&s=769e877eec5d8be675ab85b22ac7ce99"
+                width="350"
+              />
+            </div>
+            <div
+              className="events-list__summary"
+            >
+              <header>
+                <h2
+                  className="events-list__title"
+                >
+                  AFROPUNK FEST BROOKLYN 2018
+                </h2>
+              </header>
+              <p
+                className="events-list__text"
+              >
+                Sat, Aug 25, 11:00am
+              </p>
+              <p
+                className="events-list__text"
+              >
+                Flushing Avenue
+              </p>
+              <p
+                className="events-list__text"
+              >
+                freemium o premium
+              </p>
+            </div>
+          </div>
+        </article>
+      </EventItem>
+      <EventItem
+        address={
+          Object {
+            "address_1": "Jack Smiths Lane",
+            "address_2": null,
+            "city": "Lexton",
+            "country": "AU",
+            "latitude": "-37.3010858",
+            "localized_address_display": "Jack Smiths Lane, Lexton, VIC 3352",
+            "localized_area_display": "Lexton, VIC",
+            "localized_multi_line_address_display": Array [
+              "Jack Smiths Lane",
+              "Lexton, VIC 3352",
+            ],
+            "longitude": "143.47433279999996",
+            "postal_code": "3352",
+            "region": "VIC",
+          }
+        }
+        image={
+          Object {
+            "aspect_ratio": "2",
+            "crop_mask": Object {
+              "height": 1080,
+              "top_left": Object {
+                "x": 0,
+                "y": 0,
+              },
+              "width": 2160,
+            },
+            "edge_color": "#bab2c3",
+            "edge_color_set": true,
+            "id": "46780898",
+            "original": Object {
+              "height": 1080,
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46780898%2F158287430847%2F1%2Foriginal.jpg?auto=compress&s=772b60dfba7235214c9d17bb96f29bbe",
+              "width": 2160,
+            },
+            "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46780898%2F158287430847%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C2160%2C1080&s=518a45ee14ece1dc24e7940f567541d4",
+          }
+        }
+        key="40086799697"
+        name="Rainbow Serpent Festival 2019"
+        ticketAvailability={
+          Object {
+            "has_available_tickets": true,
+            "is_free": false,
+            "is_sold_out": false,
+            "maximum_ticket_price": Object {
+              "currency": "AUD",
+              "display": "30.00 AUD",
+              "major_value": "30.00",
+              "value": 3000,
+            },
+            "minimum_ticket_price": Object {
+              "currency": "AUD",
+              "display": "30.00 AUD",
+              "major_value": "30.00",
+              "value": 3000,
+            },
+          }
+        }
+      >
+        <article
+          className="events-list__item"
+        >
+          <div
+            className="events-list__item-content"
+          >
+            <div
+              className="events-list__image"
+            >
+              <img
+                height="175"
+                src="https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46780898%2F158287430847%2F1%2Foriginal.jpg?auto=compress&s=772b60dfba7235214c9d17bb96f29bbe"
+                width="350"
+              />
+            </div>
+            <div
+              className="events-list__summary"
+            >
+              <header>
+                <h2
+                  className="events-list__title"
+                >
+                  Rainbow Serpent Festival 2019
+                </h2>
+              </header>
+              <p
+                className="events-list__text"
+              >
+                Sat, Aug 25, 11:00am
+              </p>
+              <p
+                className="events-list__text"
+              >
+                Jack Smiths Lane
+              </p>
+              <p
+                className="events-list__text"
+              >
+                freemium o premium
+              </p>
+            </div>
+          </div>
+        </article>
+      </EventItem>
+      <EventItem
+        address={
+          Object {
+            "address_1": null,
+            "address_2": null,
+            "city": "Atlanta",
+            "country": "US",
+            "latitude": "33.386825",
+            "localized_address_display": "Atlanta, GA",
+            "localized_area_display": "Atlanta, GA",
+            "localized_multi_line_address_display": Array [
+              "Atlanta, GA",
+            ],
+            "longitude": "-84.31640299999998",
+            "postal_code": null,
+            "region": "GA",
+          }
+        }
+        image={
+          Object {
+            "aspect_ratio": "2",
+            "crop_mask": Object {
+              "height": 1080,
+              "top_left": Object {
+                "x": 0,
+                "y": 0,
+              },
+              "width": 2160,
+            },
+            "edge_color": "#1b578e",
+            "edge_color_set": true,
+            "id": "46818794",
+            "original": Object {
+              "height": 1080,
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46818794%2F226441600696%2F1%2Foriginal.jpg?auto=compress&s=56422e84f1e2b2fe6766e228d606ef43",
+              "width": 2160,
+            },
+            "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46818794%2F226441600696%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C0%2C2160%2C1080&s=78a05f3fbda6079e32ffdcedd40fc35b",
+          }
+        }
+        key="37868124580"
+        name="Imagine Festival 2018 | Armin Van Buuren, Bassnectar, Kaskade, Alesso, Galantis, RL Grime, Zeds Dead, The Glitch Mob, Adventure Club, Getter, Griz, Zhu, Green Velvet, Oliver Heldens +++ | Atlanta, GA"
+        ticketAvailability={
+          Object {
+            "has_available_tickets": true,
+            "is_free": false,
+            "is_sold_out": false,
+            "maximum_ticket_price": Object {
+              "currency": "USD",
+              "display": "1499.00 USD",
+              "major_value": "1499.00",
+              "value": 149900,
+            },
+            "minimum_ticket_price": Object {
+              "currency": "USD",
+              "display": "49.00 USD",
+              "major_value": "49.00",
+              "value": 4900,
+            },
+          }
+        }
+      >
+        <article
+          className="events-list__item"
+        >
+          <div
+            className="events-list__item-content"
+          >
+            <div
+              className="events-list__image"
+            >
+              <img
+                height="175"
+                src="https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46818794%2F226441600696%2F1%2Foriginal.jpg?auto=compress&s=56422e84f1e2b2fe6766e228d606ef43"
+                width="350"
+              />
+            </div>
+            <div
+              className="events-list__summary"
+            >
+              <header>
+                <h2
+                  className="events-list__title"
+                >
+                  Imagine Festival 2018 | Armin Van Buuren, Bassnectar, Kaskade, Alesso, Galantis, RL Grime, Zeds Dead, The Glitch Mob, Adventure Club, Getter, Griz, Zhu, Green Velvet, Oliver Heldens +++ | Atlanta, GA
+                </h2>
+              </header>
+              <p
+                className="events-list__text"
+              >
+                Sat, Aug 25, 11:00am
+              </p>
+              <p
+                className="events-list__text"
+              />
+              <p
+                className="events-list__text"
+              >
+                freemium o premium
+              </p>
+            </div>
+          </div>
+        </article>
+      </EventItem>
+      <EventItem
+        address={
+          Object {
+            "address_1": "18143 Reservoir Rd",
+            "address_2": null,
+            "city": "Waterford",
+            "country": "US",
+            "latitude": "37.6605214",
+            "localized_address_display": "18143 Reservoir Rd, Waterford, CA 95386",
+            "localized_area_display": "Waterford, CA",
+            "localized_multi_line_address_display": Array [
+              "18143 Reservoir Rd",
+              "Waterford, CA 95386",
+            ],
+            "longitude": "-120.65596670000002",
+            "postal_code": "95386",
+            "region": "CA",
+          }
+        }
+        image={
+          Object {
+            "aspect_ratio": "2",
+            "crop_mask": Object {
+              "height": 583,
+              "top_left": Object {
+                "x": 0,
+                "y": 4,
+              },
+              "width": 1166,
+            },
+            "edge_color": "#aab6be",
+            "edge_color_set": true,
+            "id": "46202683",
+            "original": Object {
+              "height": 592,
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46202683%2F178727404063%2F1%2Foriginal.jpg?auto=compress&s=4d6d840e0c2c1d1b5634b46eb333df59",
+              "width": 1166,
+            },
+            "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46202683%2F178727404063%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C4%2C1166%2C583&s=d3c55e7b6f5a8db6e7fee3a182d83052",
+          }
+        }
+        key="45998453613"
+        name="Dirtybird Campout West Coast 2018"
+        ticketAvailability={
+          Object {
+            "has_available_tickets": true,
+            "is_free": false,
+            "is_sold_out": false,
+            "maximum_ticket_price": Object {
+              "currency": "USD",
+              "display": "1349.00 USD",
+              "major_value": "1349.00",
+              "value": 134900,
+            },
+            "minimum_ticket_price": Object {
+              "currency": "USD",
+              "display": "20.00 USD",
+              "major_value": "20.00",
+              "value": 2000,
+            },
+          }
+        }
+      >
+        <article
+          className="events-list__item"
+        >
+          <div
+            className="events-list__item-content"
+          >
+            <div
+              className="events-list__image"
+            >
+              <img
+                height="175"
+                src="https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F46202683%2F178727404063%2F1%2Foriginal.jpg?auto=compress&s=4d6d840e0c2c1d1b5634b46eb333df59"
+                width="350"
+              />
+            </div>
+            <div
+              className="events-list__summary"
+            >
+              <header>
+                <h2
+                  className="events-list__title"
+                >
+                  Dirtybird Campout West Coast 2018
+                </h2>
+              </header>
+              <p
+                className="events-list__text"
+              >
+                Sat, Aug 25, 11:00am
+              </p>
+              <p
+                className="events-list__text"
+              >
+                18143 Reservoir Rd
+              </p>
+              <p
+                className="events-list__text"
+              >
+                freemium o premium
+              </p>
+            </div>
+          </div>
+        </article>
+      </EventItem>
+      <EventItem
+        address={
+          Object {
+            "address_1": "Rodovia Deputado Archimedes Lamoglia",
+            "address_2": "Km 18, s/n - Zona Rural",
+            "city": "Itu",
+            "country": "BR",
+            "latitude": "-23.342197",
+            "localized_address_display": "Rodovia Deputado Archimedes Lamoglia Km 18, s/n - Zona Rural, Itu, SP",
+            "localized_area_display": "Itu, SP",
+            "localized_multi_line_address_display": Array [
+              "Rodovia Deputado Archimedes Lamoglia",
+              "Km 18, s/n - Zona Rural",
+              "Itu, SP",
+            ],
+            "longitude": "-47.34586030000003",
+            "postal_code": null,
+            "region": "SP",
+          }
+        }
+        image={
+          Object {
+            "aspect_ratio": "2",
+            "crop_mask": Object {
+              "height": 996,
+              "top_left": Object {
+                "x": 0,
+                "y": 25,
+              },
+              "width": 1992,
+            },
+            "edge_color": "#261f38",
+            "edge_color_set": true,
+            "id": "45458208",
+            "original": Object {
+              "height": 1046,
+              "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F45458208%2F236638330639%2F1%2Foriginal.jpg?auto=compress&s=2572f7e180a731051836bcad2100df97",
+              "width": 1992,
+            },
+            "url": "https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F45458208%2F236638330639%2F1%2Foriginal.jpg?h=512&w=512&auto=compress&rect=0%2C25%2C1992%2C996&s=0384ce8882425a0d69b03e55db198c6b",
+          }
+        }
+        key="46298185118"
+        name="XXXPERIENCE - Revolution 2.2 INGRESSOS"
+        ticketAvailability={
+          Object {
+            "has_available_tickets": false,
+            "is_free": false,
+            "is_sold_out": true,
+            "maximum_ticket_price": null,
+            "minimum_ticket_price": null,
+          }
+        }
+      >
+        <article
+          className="events-list__item"
+        >
+          <div
+            className="events-list__item-content"
+          >
+            <div
+              className="events-list__image"
+            >
+              <img
+                height="175"
+                src="https://img-dev.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F45458208%2F236638330639%2F1%2Foriginal.jpg?auto=compress&s=2572f7e180a731051836bcad2100df97"
+                width="350"
+              />
+            </div>
+            <div
+              className="events-list__summary"
+            >
+              <header>
+                <h2
+                  className="events-list__title"
+                >
+                  XXXPERIENCE - Revolution 2.2 INGRESSOS
+                </h2>
+              </header>
+              <p
+                className="events-list__text"
+              >
+                Sat, Aug 25, 11:00am
+              </p>
+              <p
+                className="events-list__text"
+              >
+                Rodovia Deputado Archimedes Lamoglia
+              </p>
+              <p
+                className="events-list__text"
+              >
+                freemium o premium
+              </p>
+            </div>
+          </div>
+        </article>
+      </EventItem>
+    </section>
+  </EventList>
+</App>
+`;
