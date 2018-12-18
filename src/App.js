@@ -10,6 +10,7 @@ import ConnectedEvents from './containers/ConnectedEvents';
 import EventList from './components/EventList';
 import ConnectedStepper from './containers/ConnectedStepper';
 import ConnectedStepperReact from './containers/ConnectedStepperReact';
+import ConnectedSearchForm from './containers/ConnectedSearchForm';
 import reducer from './reducers';
 
 import './styles/styles.scss';
@@ -40,8 +41,7 @@ export default class App extends React.Component {
 
                     Events (react):
                     <EventList data={events}/>*/}
-
-                    Events (redux):
+                    <ConnectedSearchForm />
                     <ConnectedEvents />
                 </div>
             </Provider>
