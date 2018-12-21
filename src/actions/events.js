@@ -39,7 +39,8 @@ export const localSearchEvents = ({search} = {}) => (dispatch) => (
             dispatch(searchEvent(filteredEvents));
         } else {
             filteredEvents = filter(filteredEvents, (item) => {
-                if (includes(item.name.toUpperCase(), search.toUpperCase()))
+                if (includes(item.name.toUpperCase(), search.toUpperCase()) ||
+                    includes(item.summary.toUpperCase(), search.toUpperCase()))
                     return item;
             }, search);
 
