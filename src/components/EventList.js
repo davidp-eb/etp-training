@@ -6,6 +6,7 @@ import EventItem from './EventItem';
 export default class EventList extends React.PureComponent {
     static propTypes = {
         events: PropTypes.array.isRequired,
+        searchEvent: PropTypes.func.isRequired
     }
 
     static defaultProps = {
@@ -13,9 +14,9 @@ export default class EventList extends React.PureComponent {
     }
 
     componentDidMount() {
-        const {search} = this.props;
+        const {searchEvent} = this.props;
 
-        search();
+        searchEvent();
     }
 
     render() {

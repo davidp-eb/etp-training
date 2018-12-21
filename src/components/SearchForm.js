@@ -16,6 +16,7 @@ export default class SearchForm extends Component {
     render() {
         const {handleSubmit, submitFailed, error} = this.props;
         let submitError;
+
         if (submitFailed && error) {
             submitError = 'Ha ocurrido un error por buscar David.';
         }
@@ -46,6 +47,12 @@ export default class SearchForm extends Component {
                                 style="fill"
                             >
                                 Submit
+                            </Button>
+                            <Button
+                                type="submit"
+                                onClick={handleSubmit}
+                            >
+                                Reset
                             </Button>
                         </form>
                     </div>

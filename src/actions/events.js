@@ -2,7 +2,7 @@ export const SEARCH = 'SEARCH';
 export const RESET = 'RESET';
 import {data} from '../data/events'; // llamar endpoint
 import { SubmissionError } from 'redux-form';
-import reduce from 'lodash/reduce';
+import {filter, includes} from 'lodash';
 
 const events = data.events.map(({
     id,
@@ -23,24 +23,28 @@ const events = data.events.map(({
 });
 
 // add api calls.
-export const search = () => ({type: SEARCH, events});
+export const searchEvent = (payload = events) => ({type: SEARCH, payload});
 export const reset = () => ({type: RESET});
 
 export const localSearchEvents = ({search} = {}) => (dispatch) => (
     Promise.resolve().then(() => {
+        let filteredEvents = events;
+
         if (search === "David") {
             throw new SubmissionError({
                 search: 'Please enter the name of the event!!',
                 _error: 'David is a name.',
             });
+        } else if (search === "all") {
+            dispatch(searchEvent(filteredEvents));
         } else {
-            let filteredEvents = events;
+            filteredEvents = filter(filteredEvents, (item) => {
+                if (includes(item.name.toUpperCase(), search.toUpperCase()))
+                    return item;
+            }, search);
 
-            dispatch(a)
-
+            dispatch(searchEvent(filteredEvents));
         }
-
-
     })
 );
 

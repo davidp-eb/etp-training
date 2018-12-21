@@ -2,7 +2,7 @@ import {connect} from 'react-redux';
 
 import EventList from '../components/EventList';
 import {
-    search,
+    searchEvent,
     reset
 } from '../actions/events';
 
@@ -14,7 +14,7 @@ const _mapStateToProps = ({events}) => ({
 //Saco acciones y las paso como propiedades,
 // las llamadas a las actions se hacen aca (por ejemplo las llamadas a la api)
 const _mapDispatchToProps = {
-    search,
+    searchEvent,
     reset,
 };
 

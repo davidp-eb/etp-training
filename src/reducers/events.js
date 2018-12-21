@@ -5,11 +5,11 @@ import {
     RESET
 } from '../actions/events';
 
-const searchEventsReducer = (state = [], {type, events}) => {
+const searchEventsReducer = (state = [], {type, payload}) => {
     let nextState = state;
 
     if (type == SEARCH) {
-        nextState = events;
+        nextState = payload;
     }
 
     return nextState;
