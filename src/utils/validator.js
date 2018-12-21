@@ -1,9 +1,7 @@
 export const validate = values => {
     const errors = {};
-    if (!values.search) {
-      errors.search = 'Search Field is Required.';
-    } else if (values.search.length < 3) {
-      errors.search = 'Must be 4 characters or more.';
+    if (values.search && values.search.length > 20) {
+      errors.search = 'Must be 20 characters as maximum.';
     }
 
     return errors;

@@ -11,7 +11,7 @@ const _mapStateToProps = ({events}) => ({
     events: events.searchEventsReducer,
 });
 
-//Saco acciones y las paso como propiedades,
+// Saco acciones y las paso como propiedades,
 // las llamadas a las actions se hacen aca (por ejemplo las llamadas a la api)
 const _mapDispatchToProps = {
     searchEvent,

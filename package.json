@@ -10,7 +10,6 @@
   },
   "author": "",
   "license": "ISC",
-
   "devDependencies": {
     "airbnb-js-shims": "^1.3.0",
     "babel-core": "^6.24.1",
@@ -51,9 +50,10 @@
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "3.0.0",
     "whatwg-fetch": "^2.0.3"
-},
-"dependencies": {
+  },
+  "dependencies": {
     "classnames": "^2.2.6",
+    "eventbrite": "^1.0.3",
     "eventbrite_design_system": "http://packages.evbops.com:8889/package/eventbrite_design_system/67.0.0",
     "js-utils": "http://packages.evbops.com:8889/package/js-utils/9.1.1",
     "lodash": "^4.17.11",
