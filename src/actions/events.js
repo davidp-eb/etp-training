@@ -6,42 +6,6 @@ import eventbrite from 'eventbrite';
 export const SEARCH = 'SEARCH';
 export const RESET = 'RESET';
 
-const sdk = eventbrite({
-    token: 'LDPDOG3T7OWGAKNQKBFN',
-    baseUrl: 'https://www.evbqaapi.com/v3',
-});
-
-//1-traer eventos cuando carga
-//2- con search, que compare
-const requestToApi = ({
-    q = "",
-    price = "",
-    dates = "",
-    tags = [],
-}) => {
-    sdk.request(
-        '/destination/search/',
-            {
-                method: 'POST',
-                body: JSON.stringify({
-                    event_search: {
-                        q,
-                        price,
-                        dates,
-                        tags,
-                    },
-                    page_size: 50,
-                    'expand.destination_event': [
-                        "primary_venue",
-                        "image",
-                        "ticket_availability",
-                    ]
-                }),
-            }
-    ).then(res => {
-        //debugger;
-    });
-};
 
 
 const events = data.events.map(({
@@ -70,7 +34,7 @@ export const reset = () => ({type: RESET});
 
 //definir otra funcion que
 export const apiSearchEvents = () => ({type: SEARCH, payload});
-export const apiSearchEvents = ({search}) => (dispatch) => (
+export const apiSearchEventsQuery = ({search}) => (dispatch) => (
     ""
 );
 

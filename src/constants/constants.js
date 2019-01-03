@@ -182,3 +182,10 @@ const _formatMappingForSelectField = (dataMap) => _formatMapper(dataMap, 'value'
 export const FORMATTED_CATEGORY_MAPPING = _formatMappingForSelectField(EVENTBRITE_CATEGORY_MAPPING);
 export const FORMATTED_FORMAT_MAPPING = _formatMappingForSelectField(EVENTBRITE_FORMAT_MAPPING);
 export const FORMATTED_DATE_MAPPING = _formatMappingForSelectField(DATES_MAPPING);
+
+// Routes
+export const BASE_URL = '/';
+export const EVENTS_SEARCH_URL = 'events';
+export const REDUX_STEPPER_URL = 'redux-stepper';
+export const EVENT_DETAILS_URL = '/events/:eventId/';
+//TODO: Agregar urls para stepper.

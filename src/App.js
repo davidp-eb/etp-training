@@ -4,13 +4,12 @@ import {createLogger} from 'redux-logger';
 import thunk from 'redux-thunk';
 import {Provider} from 'react-redux';
 import {createStore, applyMiddleware, combineReducers} from 'redux';
+import {Router, browserHistory} from 'react-router';
+import {syncHistoryWithStore} from 'react-router-redux';
+import {getRoutes} from './routes';
 
 
-import ConnectedEvents from './containers/ConnectedEvents';
 import EventList from './components/EventList';
-import ConnectedStepper from './containers/ConnectedStepper';
-import ConnectedStepperReact from './containers/ConnectedStepperReact';
-import ConnectedSearchForm from './containers/ConnectedSearchForm';
 import reducer from './reducers';
 
 import './styles/styles.scss';
@@ -27,23 +26,16 @@ export default class App extends React.Component {
                 applyMiddleware(...[thunk], createLogger({collapsed: true}))
             )
         );
+
+        this._history = syncHistoryWithStore(browserHistory, this._store);
     }
 
     render() {
+        const routes = getRoutes();
+
         return (
             <Provider store={this._store}>
-                <div>
-                    {/*Stepper (redux):
-                    <ConnectedStepper />
-
-                    Stepper (react):
-                    <ConnectedStepperReact />
-
-                    Events (react):
-                    <EventList data={events}/>*/}
-                    <ConnectedSearchForm />
-                    <ConnectedEvents />
-                </div>
+                <Router history={this._history} routes={routes} />
             </Provider>
         );
     }
